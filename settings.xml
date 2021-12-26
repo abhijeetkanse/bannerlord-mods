@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<MLWSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<ClanRecruitCustomTroop>true</ClanRecruitCustomTroop>
+	
+	<!-- Replace troop production at player owned settlements with custom units; AI can recruit as well -->
+	<SpawnAtPlayerSettlement>false</SpawnAtPlayerSettlement>
+
+	<!-- Replace troop production in all settlements of player lead kingdom with custom units; AI can recruit as well -->
+	<SpawnAtPlayerKingdom>false</SpawnAtPlayerKingdom>
+
+	<!-- Enable unit editor on none custom units-->
+	<!-- Upgrade Path disabled; limited to just stat gear and appearence changes -->
+	<FullUnitEditor>false</FullUnitEditor>
+	
+</MLWSettings>

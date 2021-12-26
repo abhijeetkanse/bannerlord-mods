@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>		<!--Males 1, 1_1, 1_2;  Females 1_3,1_4-->
+    <NPCCharacter id="Khuzait_lord_1"
+	        name="Badur"
+	        age="23"
+	        voice="ironic"
+	        culture="Culture.khuzait"
+	        default_group="Cavalry"
+	        is_hero="true"
+	        occupation="Lord"
+	        face_mesh_cache="true">
+	      <face>
+	      <BodyProperties version="4" weight="0.5" build="0.5" key="000AB80D00000809737023195BB843782617793FD6DF2B416B7DA9018121782303877035F8557705000000000000000000000000000000000000000079083042"  />
+	      </face>
+	      <skills></skills>
+	      <Traits>
+	      <Trait id="BalancedFightingSkills"
+	            value="7" />
+	      <Trait id="Commander"
+	            value="6" />
+	      <Trait id="Politician"
+	            value="5" />
+	      <Trait id="Manager"
+	            value="6" />
+	      <Trait id="Honor"
+	            value="1" />
+	      <Trait id="Generosity"
+	            value="1" />
+	      <Trait id="Mercy"
+	            value="1" />
+	      </Traits>
+	      <Equipments>
+	      <EquipmentRoster />
+	      <EquipmentSet id="khu_bat_template_heavy" />
+	      <EquipmentSet id="khu_civ_template_default"
+	                   civilian="true" />
+	      </Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="Khuzait_lord_1_1"
+	        name="Dengul"
+	        age="23"
+	        voice="ironic"
+	        culture="Culture.khuzait"
+	        default_group="Cavalry"
+	        is_hero="true"
+	        occupation="Lord"
+	        face_mesh_cache="true">
+	      <face>
+	      <BodyProperties version="4" weight="0.5" build="0.5"  key="000AF00D00B413940888751A1794B0496099B698B7A4AD33C63BA5535D78938901877614F85B791200000000000000000000000000000000000000007F043042"  />
+	      </face>
+	      <skills></skills>
+	      <Traits>
+	      <Trait id="BalancedFightingSkills"
+	            value="7" />
+	      <Trait id="Commander"
+	            value="6" />
+	      <Trait id="Politician"
+	            value="5" />
+	      <Trait id="Manager"
+	            value="6" />
+	      <Trait id="Honor"
+	            value="1" />
+	      <Trait id="Generosity"
+	            value="1" />
+	      <Trait id="Mercy"
+	            value="1" />
+	      </Traits>
+	      <Equipments>
+	      <EquipmentRoster />
+	      <EquipmentSet id="khu_bat_template_heavy" />
+	      <EquipmentSet id="khu_civ_template_default"
+	                   civilian="true" />
+	      </Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="Khuzait_lord_1_2"
+	        name="Kazam"
+	        age="23"
+	        voice="ironic"
+	        culture="Culture.khuzait"
+	        default_group="Cavalry"
+	        is_hero="true"
+	        occupation="Lord"
+	        face_mesh_cache="true">
+	      <face>
+	      <BodyProperties version="4" weight="0.5" build="0.5"  key="000AF00D00B4178F0888751A1794B0496099B698B7A4AD33C63BA5535D78938901877614F85B791200000000000000000000000000000000000000007F043042"  />
+	      </face>
+	      <skills></skills>
+	      <Traits>
+	      <Trait id="BalancedFightingSkills"
+	            value="7" />
+	      <Trait id="Commander"
+	            value="6" />
+	      <Trait id="Politician"
+	            value="5" />
+	      <Trait id="Manager"
+	            value="6" />
+	      <Trait id="Honor"
+	            value="1" />
+	      <Trait id="Generosity"
+	            value="1" />
+	      <Trait id="Mercy"
+	            value="1" />
+	      </Traits>
+	      <Equipments>
+	      <EquipmentRoster />
+	      <EquipmentSet id="khu_bat_template_heavy" />
+	      <EquipmentSet id="khu_civ_template_default"
+	                   civilian="true" />
+	      </Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="Khuzait_lord_1_3"
+                name="Dalai"
+                voice="curt"
+                age="21"
+                is_female="true"
+                culture="Culture.khuzait"
+                occupation="Lord"
+                default_group="HorseArcher"
+                is_hero="true"
+                face_mesh_cache="true">
+	    <face>
+	      <BodyProperties version="4" weight="0.5" build="0.5"  key="0010D40F0000300AE9761DA0AD922600CE626C60F0EF0710F7DA1E1A740E105101777613F7634C0A00000000000000000000000000000000000000007EF44083"  />
+	    </face>
+	    <skills></skills>
+	    <Traits>
+	      <Trait id="BalancedFightingSkills"
+	             value="4" />
+	      <Trait id="Commander"
+	             value="6" />
+	      <Trait id="Politician"
+	             value="8" />
+	      <Trait id="Manager"
+	             value="7" />
+	      <Trait id="Valor"
+	             value="1" />
+	      <Trait id="Honor"
+	             value="1" />
+	      <Trait id="Mercy"
+	             value="1" />
+	      <Trait id="Egalitarian"
+	             value="1" />
+	    </Traits>
+	    <Equipments>
+	      <EquipmentRoster />
+	      <EquipmentSet id="khu_bat_template_medium" />
+	      <EquipmentSet id="khu_civ_template_default"
+	                    civilian="true" />
+	    </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="Khuzait_lord_1_4"
+                name="Anjikhin"
+                voice="curt"
+                age="21"
+                is_female="true"
+                culture="Culture.khuzait"
+                occupation="Lord"
+                default_group="HorseArcher"
+                is_hero="true"
+                face_mesh_cache="true">
+	    <face>
+	      <BodyProperties version="4" weight="0.5" build="0.5"  key="0010D40F00003002E9761DA0AD922600CE626C60F0EF0710F7DA1E1A740E105101777613F7634C0A00000000000000000000000000000000000000007EF44083"  />
+	    </face>
+	    <skills></skills>
+	    <Traits>
+	      <Trait id="BalancedFightingSkills"
+	             value="4" />
+	      <Trait id="Commander"
+	             value="6" />
+	      <Trait id="Politician"
+	             value="8" />
+	      <Trait id="Manager"
+	             value="7" />
+	      <Trait id="Valor"
+	             value="1" />
+	      <Trait id="Honor"
+	             value="1" />
+	      <Trait id="Mercy"
+	             value="1" />
+	      <Trait id="Egalitarian"
+	             value="1" />
+	    </Traits>
+	    <Equipments>
+	      <EquipmentRoster />
+	      <EquipmentSet id="khu_bat_template_medium" />
+	      <EquipmentSet id="khu_civ_template_default"
+	                    civilian="true" />
+	    </Equipments>
+    </NPCCharacter>
+    
+
+    <NPCCharacter id="Khuzait_lord_2"
+                name="Akadan"
+                age="23"
+                voice="ironic"
+                culture="Culture.khuzait"
+                default_group="Cavalry"
+                is_hero="true"
+                occupation="Lord"
+                face_mesh_cache="true">
+              <face>
+              <BodyProperties version="4" weight="0.5" build="0.5"  key="0000D40E4058008EC1870F01FAB3A87AC0CC860951BE0F9C21C73B0F8207440401A77613FAF03905000000000000000000000000000000000000000035446002"  />
+              </face>
+              <skills></skills>
+              <Traits>
+              <Trait id="BalancedFightingSkills"
+                    value="7" />
+              <Trait id="Commander"
+                    value="6" />
+              <Trait id="Politician"
+                    value="5" />
+              <Trait id="Manager"
+                    value="6" />
+              <Trait id="Honor"
+                    value="1" />
+              <Trait id="Generosity"
+                    value="1" />
+              <Trait id="Mercy"
+                    value="1" />
+              </Traits>
+              <Equipments>
+              <EquipmentRoster />
+              <EquipmentSet id="khu_bat_template_heavy" />
+              <EquipmentSet id="khu_civ_template_default"
+                           civilian="true" />
+              </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="Khuzait_lord_2_1"
+                name="Dachan"
+                age="23"
+                voice="ironic"
+                culture="Culture.khuzait"
+                default_group="Cavalry"
+                is_hero="true"
+                occupation="Lord"
+                face_mesh_cache="true">
+              <face>
+              <BodyProperties version="4" weight="0.3403" build="0.1968"  key="0005D40E40CC004930700A00F6B75EBC64CE860E94FA0E1F2614A80F8034600001835614F8F5320F00003000082968090000000000002A350000000035146003"  />
+              </face>
+              <skills></skills>
+              <Traits>
+              <Trait id="BalancedFightingSkills"
+                    value="7" />
+              <Trait id="Commander"
+                    value="6" />
+              <Trait id="Politician"
+                    value="5" />
+              <Trait id="Manager"
+                    value="6" />
+              <Trait id="Honor"
+                    value="1" />
+              <Trait id="Generosity"
+                    value="1" />
+              <Trait id="Mercy"
+                    value="1" />
+              </Traits>
+              <Equipments>
+              <EquipmentRoster />
+              <EquipmentSet id="khu_bat_template_heavy" />
+              <EquipmentSet id="khu_civ_template_default"
+                           civilian="true" />
+              </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="Khuzait_lord_2_2"
+                name="Buchul"
+                age="23"
+                voice="ironic"
+                culture="Culture.khuzait"
+                default_group="Cavalry"
+                is_hero="true"
+                occupation="Lord"
+                face_mesh_cache="true">
+              <face>
+              <BodyProperties version="4" weight="0.5" build="0.5"  key="0000D40D80580401C1870F01FAB3A87AC0CC860951BE0F9C21C73B0F8207440400A77603FAF03905000000000000000000000000000000000000000035446002"  />
+          	  </face>
+          	  <skills></skills>
+              <Traits>
+              <Trait id="BalancedFightingSkills"
+                    value="7" />
+              <Trait id="Commander"
+                    value="6" />
+              <Trait id="Politician"
+                    value="5" />
+              <Trait id="Manager"
+                    value="6" />
+              <Trait id="Honor"
+                    value="1" />
+              <Trait id="Generosity"
+                    value="1" />
+              <Trait id="Mercy"
+                    value="1" />
+              </Traits>
+              <Equipments>
+              <EquipmentRoster />
+              <EquipmentSet id="khu_bat_template_heavy" />
+              <EquipmentSet id="khu_civ_template_default"
+                           civilian="true" />
+              </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="Khuzait_lord_2_3"
+                name="Mirim"
+                voice="curt"
+                age="21"
+                is_female="true"
+                culture="Culture.khuzait"
+                occupation="Lord"
+                default_group="HorseArcher"
+                is_hero="true"
+                face_mesh_cache="true">
+	    <face>
+	      <BodyProperties version="4" weight="0.5" build="0.5"  key="0005C40E5300300E207968A16E144C8BB0677E674E9A07769C5BBAF4800B007701777613F7A98B76132660007A0067620000000000001A77000000007EEC1003"  />
+	    </face>
+	    <skills></skills>
+	    <Traits>
+	      <Trait id="BalancedFightingSkills"
+	             value="4" />
+	      <Trait id="Commander"
+	             value="6" />
+	      <Trait id="Politician"
+	             value="8" />
+	      <Trait id="Manager"
+	             value="7" />
+	      <Trait id="Valor"
+	             value="1" />
+	      <Trait id="Honor"
+	             value="1" />
+	      <Trait id="Mercy"
+	             value="1" />
+	      <Trait id="Egalitarian"
+	             value="1" />
+	    </Traits>
+	    <Equipments>
+	      <EquipmentRoster />
+	      <EquipmentSet id="khu_bat_template_medium" />
+	      <EquipmentSet id="khu_civ_template_default"
+	                    civilian="true" />
+	    </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="Khuzait_lord_2_4"
+                name="Elin"
+                voice="curt"
+                age="21"
+                is_female="true"
+                culture="Culture.khuzait"
+                occupation="Lord"
+                default_group="HorseArcher"
+                is_hero="true"
+                face_mesh_cache="true">
+	    <face>
+	      <BodyProperties version="4" weight="0.5" build="0.5"  key="0005C40E53003004207968A16E144C8BB0677E674E9A07769C5BBAF4800B007701777613F7A98B76132660007A0067620000000000001A77000000007EEC1003"  />
+	    </face>
+	    <skills></skills>
+	    <Traits>
+	      <Trait id="BalancedFightingSkills"
+	             value="4" />
+	      <Trait id="Commander"
+	             value="6" />
+	      <Trait id="Politician"
+	             value="8" />
+	      <Trait id="Manager"
+	             value="7" />
+	      <Trait id="Valor"
+	             value="1" />
+	      <Trait id="Honor"
+	             value="1" />
+	      <Trait id="Mercy"
+	             value="1" />
+	      <Trait id="Egalitarian"
+	             value="1" />
+	    </Traits>
+	    <Equipments>
+	      <EquipmentRoster />
+	      <EquipmentSet id="khu_bat_template_medium" />
+	      <EquipmentSet id="khu_civ_template_default"
+	                    civilian="true" />
+	    </Equipments>
+    </NPCCharacter>
+    
+
+    <NPCCharacter id="Khuzait_lord_3"
+                name="Temun"
+                age="23"
+                voice="ironic"
+                culture="Culture.khuzait"
+                default_group="Cavalry"
+                is_hero="true"
+                occupation="Lord"
+                face_mesh_cache="true">
+              <face>
+              <BodyProperties version="4" weight="0.5" build="0.5"  key="0000D40D0058040DC1870F01FAB3A87AC0CC860951BE0F9C21C73B0F8207440400A77603FAF03905000000000000000000000000000000000000000035446002"  />
+              </face>
+              <skills></skills>
+              <Traits>
+              <Trait id="BalancedFightingSkills"
+                    value="7" />
+              <Trait id="Commander"
+                    value="6" />
+              <Trait id="Politician"
+                    value="5" />
+              <Trait id="Manager"
+                    value="6" />
+              <Trait id="Honor"
+                    value="1" />
+              <Trait id="Generosity"
+                    value="1" />
+              <Trait id="Mercy"
+                    value="1" />
+              </Traits>
+              <Equipments>
+              <EquipmentRoster />
+              <EquipmentSet id="khu_bat_template_heavy" />
+              <EquipmentSet id="khu_civ_template_default"
+                           civilian="true" />
+              </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="Khuzait_lord_3_1"
+                name="Kazam"
+                age="23"
+                voice="ironic"
+                culture="Culture.khuzait"
+                default_group="Cavalry"
+                is_hero="true"
+                occupation="Lord"
+                face_mesh_cache="true">
+              <face>
+              <BodyProperties version="4" weight="0.5" build="0.5"  key="000AD40D0058004DC1870F01FAB37877C0CC860951BE0F9C21C73B0F8207440400A77603FAF03905000000000000000000000000000000000000000035446002"  />
+              </face>
+              <skills></skills>
+              <Traits>
+              <Trait id="BalancedFightingSkills"
+                    value="7" />
+              <Trait id="Commander"
+                    value="6" />
+              <Trait id="Politician"
+                    value="5" />
+              <Trait id="Manager"
+                    value="6" />
+              <Trait id="Honor"
+                    value="1" />
+              <Trait id="Generosity"
+                    value="1" />
+              <Trait id="Mercy"
+                    value="1" />
+              </Traits>
+              <Equipments>
+              <EquipmentRoster />
+              <EquipmentSet id="khu_bat_template_heavy" />
+              <EquipmentSet id="khu_civ_template_default"
+                           civilian="true" />
+              </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="Khuzait_lord_3_2"
+                name="Junjad"
+                age="23"
+                voice="ironic"
+                culture="Culture.khuzait"
+                default_group="Cavalry"
+                is_hero="true"
+                occupation="Lord"
+                face_mesh_cache="true">
+              <face>
+              <BodyProperties version="4" weight="0.5" build="0.5"  key="000AD40800580389C1870F01FAB37877C0CC860951BE0F9C21C73B0F8207440400A77603FAF03905000000000000000000000000000000000000000035446002"  />
+          	  </face>
+          	  <skills></skills>
+              <Traits>
+              <Trait id="BalancedFightingSkills"
+                    value="7" />
+              <Trait id="Commander"
+                    value="6" />
+              <Trait id="Politician"
+                    value="5" />
+              <Trait id="Manager"
+                    value="6" />
+              <Trait id="Honor"
+                    value="1" />
+              <Trait id="Generosity"
+                    value="1" />
+              <Trait id="Mercy"
+                    value="1" />
+              </Traits>
+              <Equipments>
+              <EquipmentRoster />
+              <EquipmentSet id="khu_bat_template_heavy" />
+              <EquipmentSet id="khu_civ_template_default"
+                           civilian="true" />
+              </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="Khuzait_lord_3_3"
+                name="Anat"
+                voice="curt"
+                age="21"
+                is_female="true"
+                culture="Culture.khuzait"
+                occupation="Lord"
+                default_group="HorseArcher"
+                is_hero="true"
+                face_mesh_cache="true">
+	    <face>
+	      <BodyProperties version="4" weight="0.5" build="0.5"  key="000AD40D0058000BC1870F01FAB37877C0CC860951BE0F9C21C73B0F8207440400A77603FAF0390500000000000000000000000000000000000000007F444003"  />
+	    </face>
+	    <skills></skills>
+	    <Traits>
+	      <Trait id="BalancedFightingSkills"
+	             value="4" />
+	      <Trait id="Commander"
+	             value="6" />
+	      <Trait id="Politician"
+	             value="8" />
+	      <Trait id="Manager"
+	             value="7" />
+	      <Trait id="Valor"
+	             value="1" />
+	      <Trait id="Honor"
+	             value="1" />
+	      <Trait id="Mercy"
+	             value="1" />
+	      <Trait id="Egalitarian"
+	             value="1" />
+	    </Traits>
+	    <Equipments>
+	      <EquipmentRoster />
+	      <EquipmentSet id="khu_bat_template_medium" />
+	      <EquipmentSet id="khu_civ_template_default"
+	                    civilian="true" />
+	    </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="Khuzait_lord_3_4"
+                name="Holujin"
+                voice="curt"
+                age="21"
+                is_female="true"
+                culture="Culture.khuzait"
+                occupation="Lord"
+                default_group="HorseArcher"
+                is_hero="true"
+                face_mesh_cache="true">
+	    <face>
+	      <BodyProperties version="4" weight="0.5" build="0.5"  key="000AD40FC0580002C1870F01FAB37877C0CC860951BE0F9C21C73B0F8207440400A77603FAF0390500000000000000000000000000000000000000007F444003"  />
+	    </face>
+	    <skills></skills>
+	    <Traits>
+	      <Trait id="BalancedFightingSkills"
+	             value="4" />
+	      <Trait id="Commander"
+	             value="6" />
+	      <Trait id="Politician"
+	             value="8" />
+	      <Trait id="Manager"
+	             value="7" />
+	      <Trait id="Valor"
+	             value="1" />
+	      <Trait id="Honor"
+	             value="1" />
+	      <Trait id="Mercy"
+	             value="1" />
+	      <Trait id="Egalitarian"
+	             value="1" />
+	    </Traits>
+	    <Equipments>
+	      <EquipmentRoster />
+	      <EquipmentSet id="khu_bat_template_medium" />
+	      <EquipmentSet id="khu_civ_template_default"
+	                    civilian="true" />
+	    </Equipments>
+    </NPCCharacter>
+    <!--<BodyProperties version="4" age="23.38" weight="0.3" build="0.2"  key="00051805402C4002C83B75D7E857489BFCD5297221856B95B565D94AB9D29DBF007340030759A87A00000000000000000000000000000000000000007EE820C3"  />
+    -->
+    <NPCCharacter id="Khuzait_lord_4"
+                name="Genghis"
+                age="23"
+                voice="ironic"
+                culture="Culture.khuzait"
+                default_group="Cavalry"
+                is_hero="true"
+                occupation="Lord"
+                face_mesh_cache="true">
+              <face>
+              <BodyProperties version="4" weight="0.5" build="0.5"  key="0015E00C40000409346994765B84D749D369489875B9A994D22D3DD538898868007776030796723B00000000000000000000000000000000000000003EF41002"  />
+              </face>
+              <skills></skills>
+              <Traits>
+              <Trait id="BalancedFightingSkills"
+                    value="7" />
+              <Trait id="Commander"
+                    value="6" />
+              <Trait id="Politician"
+                    value="5" />
+              <Trait id="Manager"
+                    value="6" />
+              <Trait id="Honor"
+                    value="1" />
+              <Trait id="Generosity"
+                    value="1" />
+              <Trait id="Mercy"
+                    value="1" />
+              </Traits>
+              <Equipments>
+              <EquipmentRoster />
+              <EquipmentSet id="khu_bat_template_heavy" />
+              <EquipmentSet id="khu_civ_template_default"
+                           civilian="true" />
+              </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="Khuzait_lord_4_1"
+                name="Ogedei"
+                age="23"
+                voice="ironic"
+                culture="Culture.khuzait"
+                default_group="Cavalry"
+                is_hero="true"
+                occupation="Lord"
+                face_mesh_cache="true">
+              <face>
+              <BodyProperties version="4" weight="0.5" build="0.5"  key="0015E00D80000412346994765B84D749D369489875B9A994D22D3DD538898868007776030796723B00000000000000000000000000000000000000003EF41002"  />
+              </face>
+              <skills></skills>
+              <Traits>
+              <Trait id="BalancedFightingSkills"
+                    value="7" />
+              <Trait id="Commander"
+                    value="6" />
+              <Trait id="Politician"
+                    value="5" />
+              <Trait id="Manager"
+                    value="6" />
+              <Trait id="Honor"
+                    value="1" />
+              <Trait id="Generosity"
+                    value="1" />
+              <Trait id="Mercy"
+                    value="1" />
+              </Traits>
+              <Equipments>
+              <EquipmentRoster />
+              <EquipmentSet id="khu_bat_template_heavy" />
+              <EquipmentSet id="khu_civ_template_default"
+                           civilian="true" />
+              </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="Khuzait_lord_4_2"
+                name="Uzbeg"
+                age="23"
+                voice="ironic"
+                culture="Culture.khuzait"
+                default_group="Cavalry"
+                is_hero="true"
+                occupation="Lord"
+                face_mesh_cache="true">
+              <face>
+              <BodyProperties version="4" weight="0.5" build="0.5"  key="0015E00D80000405346994765B84D749D369489875B9A994D22D3DD538898868007776030796723B00000000000000000000000000000000000000003EF41002"  />
+          	  </face>
+          	  <skills></skills>
+              <Traits>
+              <Trait id="BalancedFightingSkills"
+                    value="7" />
+              <Trait id="Commander"
+                    value="6" />
+              <Trait id="Politician"
+                    value="5" />
+              <Trait id="Manager"
+                    value="6" />
+              <Trait id="Honor"
+                    value="1" />
+              <Trait id="Generosity"
+                    value="1" />
+              <Trait id="Mercy"
+                    value="1" />
+              </Traits>
+              <Equipments>
+              <EquipmentRoster />
+              <EquipmentSet id="khu_bat_template_heavy" />
+              <EquipmentSet id="khu_civ_template_default"
+                           civilian="true" />
+              </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="Khuzait_lord_4_3"
+                name="Anat"
+                voice="curt"
+                age="21"
+                is_female="true"
+                culture="Culture.khuzait"
+                occupation="Lord"
+                default_group="HorseArcher"
+                is_hero="true"
+                face_mesh_cache="true">
+	    <face>
+	      <BodyProperties version="4" weight="0.5" build="0.5"  key="0015E00E4000300134E7574DC2327A3BD369489875B9A994D22D3DD538898868007776030796723B00000000000000000000000000000000000000003EF42003"  />
+	    </face>
+	    <skills></skills>
+	    <Traits>
+	      <Trait id="BalancedFightingSkills"
+	             value="4" />
+	      <Trait id="Commander"
+	             value="6" />
+	      <Trait id="Politician"
+	             value="8" />
+	      <Trait id="Manager"
+	             value="7" />
+	      <Trait id="Valor"
+	             value="1" />
+	      <Trait id="Honor"
+	             value="1" />
+	      <Trait id="Mercy"
+	             value="1" />
+	      <Trait id="Egalitarian"
+	             value="1" />
+	    </Traits>
+	    <Equipments>
+	      <EquipmentRoster />
+	      <EquipmentSet id="khu_bat_template_medium" />
+	      <EquipmentSet id="khu_civ_template_default"
+	                    civilian="true" />
+	    </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="Khuzait_lord_4_4"
+                name="Holujin"
+                voice="curt"
+                age="21"
+                is_female="true"
+                culture="Culture.khuzait"
+                occupation="Lord"
+                default_group="HorseArcher"
+                is_hero="true"
+                face_mesh_cache="true">
+	    <face>
+	      <BodyProperties version="4" weight="0.5" build="0.5"  key="0015780D000030114678B9B66176487BD369A63987FF1449D22D3DD538898868007776030796723B00000000000000000000000000000000000000003EF40003"  />
+	    </face>
+	    <skills></skills>
+	    <Traits>
+	      <Trait id="BalancedFightingSkills"
+	             value="4" />
+	      <Trait id="Commander"
+	             value="6" />
+	      <Trait id="Politician"
+	             value="8" />
+	      <Trait id="Manager"
+	             value="7" />
+	      <Trait id="Valor"
+	             value="1" />
+	      <Trait id="Honor"
+	             value="1" />
+	      <Trait id="Mercy"
+	             value="1" />
+	      <Trait id="Egalitarian"
+	             value="1" />
+	    </Traits>
+	    <Equipments>
+	      <EquipmentRoster />
+	      <EquipmentSet id="khu_bat_template_medium" />
+	      <EquipmentSet id="khu_civ_template_default"
+	                    civilian="true" />
+	    </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="Khuzait_lord_4_5"
+                name="Chagatai"
+                age="23"
+                voice="ironic"
+                culture="Culture.khuzait"
+                default_group="Cavalry"
+                is_hero="true"
+                occupation="Lord"
+                face_mesh_cache="true">
+              <face>
+              <BodyProperties version="4" weight="0.5" build="0.5"  key="0015E00D80000349346994765B84D749D369489875B9A994D22D3DD538898868007776030796723B00000000000000000000000000000000000000003EF41002"  />
+          	  </face>
+          	  <skills></skills>
+              <Traits>
+              <Trait id="BalancedFightingSkills"
+                    value="7" />
+              <Trait id="Commander"
+                    value="6" />
+              <Trait id="Politician"
+                    value="5" />
+              <Trait id="Manager"
+                    value="6" />
+              <Trait id="Honor"
+                    value="1" />
+              <Trait id="Generosity"
+                    value="1" />
+              <Trait id="Mercy"
+                    value="1" />
+              </Traits>
+              <Equipments>
+              <EquipmentRoster />
+              <EquipmentSet id="khu_bat_template_heavy" />
+              <EquipmentSet id="khu_civ_template_default"
+                           civilian="true" />
+              </Equipments>
+    </NPCCharacter>
+</NPCCharacters>

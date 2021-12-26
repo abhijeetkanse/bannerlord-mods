@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+  <Hero id="custom_lord_1" is_noble="true" spouse="Hero.custom_lord_1_2" faction="Faction.clan_aserai_10" />
+  <Hero id="custom_lord_1_2" is_noble="true" spouse="Hero.custom_lord_1" faction="Faction.clan_aserai_10" />
+  <Hero id="custom_lord_1_3" is_noble="true" spouse="Hero.custom_lord_1_4" faction="Faction.clan_aserai_10" />
+  <Hero id="custom_lord_1_4" is_noble="true" spouse="Hero.custom_lord_1_3" faction="Faction.clan_aserai_10" />
+
+  <Hero id="custom_lord_2" is_noble="true" spouse="Hero.custom_lord_2_2" faction="Faction.clan_aserai_11" />
+  <Hero id="custom_lord_2_2" is_noble="true" spouse="Hero.custom_lord_2" faction="Faction.clan_aserai_11" />
+  <Hero id="custom_lord_2_1" is_noble="true" spouse="Hero.custom_lord_2_3" faction="Faction.clan_aserai_11" />
+  <Hero id="custom_lord_2_3" is_noble="true" spouse="Hero.custom_lord_2_1" faction="Faction.clan_aserai_11" />
+
+  <Hero id="custom_lord_3" is_noble="true" spouse="Hero.custom_lord_3_1" faction="Faction.clan_aserai_12" />
+  <Hero id="custom_lord_3_1" is_noble="true" spouse="Hero.custom_lord_3" faction="Faction.clan_aserai_12" />
+  <Hero id="custom_lord_3_2" is_noble="true" spouse="Hero.custom_lord_3_3" faction="Faction.clan_aserai_12" />
+  <Hero id="custom_lord_3_3" is_noble="true" spouse="Hero.custom_lord_3_2" faction="Faction.clan_aserai_12" />
+
+  <Hero id="custom_lord_4" is_noble="true" spouse="Hero.custom_lord_4_2" faction="Faction.clan_aserai_13" />
+  <Hero id="custom_lord_4_2" is_noble="true" spouse="Hero.custom_lord_4" faction="Faction.clan_aserai_13" />
+  <Hero id="custom_lord_4_1" is_noble="true" spouse="Hero.custom_lord_4_3" faction="Faction.clan_aserai_13" />
+  <Hero id="custom_lord_4_3" is_noble="true" spouse="Hero.custom_lord_4_1" faction="Faction.clan_aserai_13" />
+
+  <Hero id="custom_lord_5" is_noble="true" spouse="Hero.custom_lord_5_3" faction="Faction.clan_aserai_14" />
+  <Hero id="custom_lord_5_3" is_noble="true" spouse="Hero.custom_lord_5" faction="Faction.clan_aserai_14" />
+  <Hero id="custom_lord_5_1" is_noble="true" spouse="Hero.custom_lord_5_4" faction="Faction.clan_aserai_14" />
+  <Hero id="custom_lord_5_4" is_noble="true" spouse="Hero.custom_lord_5_1" faction="Faction.clan_aserai_14" />
+  <Hero id="custom_lord_5_2" is_noble="true" faction="Faction.clan_aserai_14" />
+
+<!-- Vlandia -->
+ 
+  <Hero id="vlandia_lord_1" is_noble="true" spouse="Hero.vlandia_lord_1_3" faction="Faction.clan_vlandia_12" />
+  <Hero id="vlandia_lord_1_3" is_noble="true" spouse="Hero.vlandia_lord_1" faction="Faction.clan_vlandia_12" />
+  <Hero id="vlandia_lord_1_1" is_noble="true" spouse="Hero.vlandia_lord_1_4" faction="Faction.clan_vlandia_12" />
+  <Hero id="vlandia_lord_1_4" is_noble="true" spouse="Hero.vlandia_lord_1_1" faction="Faction.clan_vlandia_12" />
+  <Hero id="vlandia_lord_1_2" is_noble="true" faction="Faction.clan_vlandia_12" />
+
+  <Hero id="vlandia_lord_2" is_noble="true" spouse="Hero.vlandia_lord_2_3" faction="Faction.clan_vlandia_13" />
+  <Hero id="vlandia_lord_2_3" is_noble="true" spouse="Hero.vlandia_lord_2" faction="Faction.clan_vlandia_13" />
+  <Hero id="vlandia_lord_2_1" is_noble="true" spouse="Hero.vlandia_lord_2_4" faction="Faction.clan_vlandia_13" />
+  <Hero id="vlandia_lord_2_4" is_noble="true" spouse="Hero.vlandia_lord_2_1" faction="Faction.clan_vlandia_13" />
+  <Hero id="vlandia_lord_2_2" is_noble="true" faction="Faction.clan_vlandia_13" />
+
+<!-- Khuzaits-->
+  <Hero id="Khuzait_lord_1" is_noble="true" spouse="Hero.Khuzait_lord_1_3" faction="Faction.clan_khuzait_10" />
+  <Hero id="Khuzait_lord_1_3" is_noble="true" spouse="Hero.Khuzait_lord_1" faction="Faction.clan_khuzait_10" />
+  <Hero id="Khuzait_lord_1_1" is_noble="true" spouse="Hero.Khuzait_lord_1_4" faction="Faction.clan_khuzait_10" />
+  <Hero id="Khuzait_lord_1_4" is_noble="true" spouse="Hero.Khuzait_lord_1_1" faction="Faction.clan_khuzait_10" />
+  <Hero id="Khuzait_lord_1_2" is_noble="true" faction="Faction.clan_khuzait_10" />
+
+  <Hero id="Khuzait_lord_2" is_noble="true" spouse="Hero.Khuzait_lord_2_3" faction="Faction.clan_khuzait_11" />
+  <Hero id="Khuzait_lord_2_3" is_noble="true" spouse="Hero.Khuzait_lord_2" faction="Faction.clan_khuzait_11" />
+  <Hero id="Khuzait_lord_2_1" is_noble="true" spouse="Hero.Khuzait_lord_2_4" faction="Faction.clan_khuzait_11" />
+  <Hero id="Khuzait_lord_2_4" is_noble="true" spouse="Hero.Khuzait_lord_2_1" faction="Faction.clan_khuzait_11" />
+  <Hero id="Khuzait_lord_2_2" is_noble="true" faction="Faction.clan_khuzait_11" />
+
+  <Hero id="Khuzait_lord_3" is_noble="true" spouse="Hero.Khuzait_lord_3_3" faction="Faction.clan_khuzait_12" />
+  <Hero id="Khuzait_lord_3_3" is_noble="true" spouse="Hero.Khuzait_lord_3" faction="Faction.clan_khuzait_12" />
+  <Hero id="Khuzait_lord_3_1" is_noble="true" spouse="Hero.Khuzait_lord_3_4" faction="Faction.clan_khuzait_12" />
+  <Hero id="Khuzait_lord_3_4" is_noble="true" spouse="Hero.Khuzait_lord_3_1" faction="Faction.clan_khuzait_12" />
+  <Hero id="Khuzait_lord_3_2" is_noble="true" faction="Faction.clan_khuzait_12" />
+
+  <Hero id="Khuzait_lord_4" is_noble="true" spouse="Hero.Khuzait_lord_4_3" faction="Faction.clan_khuzait_13" />
+  <Hero id="Khuzait_lord_4_3" is_noble="true" spouse="Hero.Khuzait_lord_4" faction="Faction.clan_khuzait_13" />
+  <Hero id="Khuzait_lord_4_1" is_noble="true" spouse="Hero.Khuzait_lord_4_4" faction="Faction.clan_khuzait_13" />
+  <Hero id="Khuzait_lord_4_4" is_noble="true" spouse="Hero.Khuzait_lord_4_1" faction="Faction.clan_khuzait_13" />
+  <Hero id="Khuzait_lord_4_2" is_noble="true" faction="Faction.clan_khuzait_13" />
+  <Hero id="Khuzait_lord_4_5" is_noble="true" faction="Faction.clan_khuzait_13" />
+
+<!--  Battania -->
+  <Hero id="battania_lord_1" is_noble="true" spouse="Hero.battania_lord_1_3" faction="Faction.clan_battania_9" />
+  <Hero id="battania_lord_1_3" is_noble="true" spouse="Hero.battania_lord_1" faction="Faction.clan_battania_9" />
+  <Hero id="battania_lord_1_1" is_noble="true" spouse="Hero.battania_lord_1_4" faction="Faction.clan_battania_9" />
+  <Hero id="battania_lord_1_4" is_noble="true" spouse="Hero.battania_lord_1_1" faction="Faction.clan_battania_9" />
+  <Hero id="battania_lord_1_2" is_noble="true" faction="Faction.clan_battania_9" />
+
+  <Hero id="battania_lord_2" is_noble="true" spouse="Hero.battania_lord_2_3" faction="Faction.clan_battania_10" />
+  <Hero id="battania_lord_2_3" is_noble="true" spouse="Hero.battania_lord_2" faction="Faction.clan_battania_10" />
+  <Hero id="battania_lord_2_1" is_noble="true" spouse="Hero.battania_lord_2_4" faction="Faction.clan_battania_10" />
+  <Hero id="battania_lord_2_4" is_noble="true" spouse="Hero.battania_lord_2_1" faction="Faction.clan_battania_10" />
+  <Hero id="battania_lord_2_2" is_noble="true" faction="Faction.clan_battania_10" />
+
+<!--  Sturgia --><!--
+  <Hero id="sturgia_lord_1" is_noble="true" spouse="Hero.sturgia_lord_1_4" faction="Faction.clan_khuzait_13" />
+  <Hero id="sturgia_lord_1_4" is_noble="true" spouse="Hero.sturgia_lord_1" faction="Faction.clan_khuzait_13" />
+  <Hero id="sturgia_lord_1_1" is_noble="true" spouse="Hero.sturgia_lord_1_5" faction="Faction.clan_khuzait_13" />
+  <Hero id="sturgia_lord_1_5" is_noble="true" spouse="Hero.sturgia_lord_1_1" faction="Faction.clan_khuzait_13" />
+  <Hero id="sturgia_lord_1_2" is_noble="true" faction="Faction.clan_khuzait_13" />
+  <Hero id="sturgia_lord_1_3" is_noble="true" faction="Faction.clan_khuzait_13" />-->
+  <Hero id="sturgia_lord_1" is_noble="true" spouse="Hero.sturgia_lord_1_4" faction="Faction.clan_sturgia_10" />
+  <Hero id="sturgia_lord_1_4" is_noble="true" spouse="Hero.sturgia_lord_1" faction="Faction.clan_sturgia_10" />
+  <Hero id="sturgia_lord_1_1" is_noble="true" spouse="Hero.sturgia_lord_1_5" faction="Faction.clan_sturgia_10" />
+  <Hero id="sturgia_lord_1_5" is_noble="true" spouse="Hero.sturgia_lord_1_1" faction="Faction.clan_sturgia_10" />
+  <Hero id="sturgia_lord_1_2" is_noble="true" faction="Faction.clan_sturgia_10" />
+  <Hero id="sturgia_lord_1_3" is_noble="true" faction="Faction.clan_sturgia_10" />
+
+</Heroes>

@@ -1,0 +1,2257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+  <NPCCharacter id="uchiha_recruit"
+                default_group="Infantry"
+                level="6"
+                name="Uchiha Recruit"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="20" />
+      <skill id="Riding"
+             value="0" />
+      <skill id="OneHanded"
+             value="20" />
+      <skill id="TwoHanded"
+             value="10" />
+      <skill id="Polearm"
+             value="20" />
+      <skill id="Bow"
+             value="5" />
+      <skill id="Crossbow"
+             value="5" />
+      <skill id="Throwing"
+             value="10" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.uchiha_infantryman" />
+      <upgrade_target id="NPCCharacter.uchiha_archer" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.peasant_pitchfork_2_t1" />
+        <equipment slot="Head"
+                   id="Item.leather_cap" />
+        <equipment slot="Body"
+                   id="Item.tunic_with_shoulder_pads" />
+        <equipment slot="Leg"
+                   id="Item.empire_horseman_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.peasant_polearm_1_t1" />
+        <equipment slot="Head"
+                   id="Item.merchants_hat" />
+        <equipment slot="Body"
+                   id="Item.footmans_tunic" />
+        <equipment slot="Leg"
+                   id="Item.empire_horseman_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.peasant_sickle_1_t1" />
+        <equipment slot="Body"
+                   id="Item.tied_cloth_tunic" />
+        <equipment slot="Leg"
+                   id="Item.empire_horseman_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_sword_1_t2" />
+        <equipment slot="Body"
+                   id="Item.tied_cloth_tunic" />
+        <equipment slot="Leg"
+                   id="Item.empire_horseman_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t1"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="uchiha_infantryman"
+                default_group="Infantry"
+                level="11"
+                name="Uchiha Infantryman"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="40" />
+      <skill id="Riding"
+             value="5" />
+      <skill id="OneHanded"
+             value="40" />
+      <skill id="TwoHanded"
+             value="20" />
+      <skill id="Polearm"
+             value="40" />
+      <skill id="Bow"
+             value="15" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="20" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.uchiha_trained_infantryman" />
+      <upgrade_target id="NPCCharacter.uchiha_horseman" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_sword_1_t2" />
+        <equipment slot="Item1"
+                   id="Item.leather_bound_kite_shield" />
+        <equipment slot="Head"
+                   id="Item.arming_coif" />
+        <equipment slot="Body"
+                   id="Item.empire_warrior_padded_armor_a" />
+        <equipment slot="Leg"
+                   id="Item.empire_horseman_boots" />
+        <equipment slot="Gloves"
+                   id="Item.buttoned_leather_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_sword_1_t2" />
+        <equipment slot="Item1"
+                   id="Item.leather_bound_kite_shield" />
+        <equipment slot="Head"
+                   id="Item.arming_coif" />
+        <equipment slot="Body"
+                   id="Item.empire_warrior_padded_armor_a" />
+        <equipment slot="Leg"
+                   id="Item.empire_horseman_boots" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_sword_1_t2" />
+        <equipment slot="Item1"
+                   id="Item.leather_bound_kite_shield" />
+        <equipment slot="Head"
+                   id="Item.imperial_mail_coif" />
+        <equipment slot="Body"
+                   id="Item.empire_warrior_padded_armor_b" />
+        <equipment slot="Leg"
+                   id="Item.empire_horseman_boots" />
+        <equipment slot="Gloves"
+                   id="Item.buttoned_leather_bracers" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t1"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- #endregionFor Recruit -->
+  <NPCCharacter id="uchiha_trained_infantryman"
+                default_group="Infantry"
+                level="16"
+                name="Uchiha Trained Infantryman"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="70" />
+      <skill id="Riding"
+             value="10" />
+      <skill id="OneHanded"
+             value="70" />
+      <skill id="TwoHanded"
+             value="40" />
+      <skill id="Polearm"
+             value="40" />
+      <skill id="Bow"
+             value="30" />
+      <skill id="Crossbow"
+             value="30" />
+      <skill id="Throwing"
+             value="70" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.uchiha_veteran_infantryman" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_sword_2_t3" />
+        <equipment slot="Item1"
+                   id="Item.reinforced_flat_kite_shield" />
+        <equipment slot="Item2"
+                   id="Item.western_javelin_1_t2" />
+        <equipment slot="Body"
+                   id="Item.empire_warrior_padded_armor_g" />
+        <equipment slot="Cape"
+                   id="Item.empire_warrior_padded_armor_shoulder" />
+        <equipment slot="Gloves"
+                   id="Item.guarded_padded_vambrace" />
+        <equipment slot="Leg"
+                   id="Item.leather_cavalier_boots" />
+        <equipment slot="Head"
+                   id="Item.heavy_nasalhelm_over_laced_cloth" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_sword_3_t3" />
+        <equipment slot="Item1"
+                   id="Item.reinforced_flat_kite_shield" />
+        <equipment slot="Item2"
+                   id="Item.western_javelin_1_t2" />
+        <equipment slot="Body"
+                   id="Item.padded_cloth_with_strips" />
+        <equipment slot="Cape"
+                   id="Item.scarf" />
+        <equipment slot="Gloves"
+                   id="Item.guarded_padded_vambrace" />
+        <equipment slot="Leg"
+                   id="Item.leather_cavalier_boots" />
+        <equipment slot="Head"
+                   id="Item.heavy_nasalhelm_over_imperial_padding" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_sword_3_t3" />
+        <equipment slot="Item1"
+                   id="Item.reinforced_flat_kite_shield" />
+        <equipment slot="Item2"
+                   id="Item.western_javelin_1_t2" />
+        <equipment slot="Body"
+                   id="Item.empire_warrior_padded_armor_c" />
+        <equipment slot="Cape"
+                   id="Item.empire_warrior_padded_armor_shoulder" />
+        <equipment slot="Gloves"
+                   id="Item.guarded_padded_vambrace" />
+        <equipment slot="Leg"
+                   id="Item.leather_cavalier_boots" />
+        <equipment slot="Head"
+                   id="Item.heavy_nasalhelm_over_laced_cloth" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+
+
+<NPCCharacter id="uchiha_veteran_infantryman"
+                default_group="Infantry"
+                level="21"
+                name="Uchiha Veteran Infantryman"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="100" />
+      <skill id="Riding"
+             value="15" />
+      <skill id="OneHanded"
+             value="100" />
+      <skill id="TwoHanded"
+             value="60" />
+      <skill id="Polearm"
+             value="100" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="45" />
+      <skill id="Throwing"
+             value="60" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.uchiha_legionary" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_sword_5_t4" />
+        <equipment slot="Item1"
+                   id="Item.reinforced_kite_shield" />
+        <equipment slot="Item2"
+                   id="Item.imperial_throwing_spear_1_t4" />
+        <equipment slot="Body"
+                   id="Item.imperial_mail_over_leather" />
+        <equipment slot="Gloves"
+                   id="Item.decorated_imperial_gauntlets" />
+        <equipment slot="Leg"
+                   id="Item.leather_cavalier_boots" />
+        <equipment slot="Head"
+                   id="Item.heavy_nasalhelm_over_laced_cloth" />
+        <equipment slot="Cape"
+                   id="Item.imperial_studded_strip_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_sword_5_t4" />
+        <equipment slot="Item1"
+                   id="Item.reinforced_kite_shield" />
+        <equipment slot="Item2"
+                   id="Item.imperial_throwing_spear_1_t4" />
+        <equipment slot="Body"
+                   id="Item.imperial_mail_over_leather" />
+        <equipment slot="Gloves"
+                   id="Item.decorated_imperial_gauntlets" />
+        <equipment slot="Leg"
+                   id="Item.leather_cavalier_boots" />
+        <equipment slot="Head"
+                   id="Item.heavy_nasalhelm_over_imperial_padding" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_sword_5_t4" />
+        <equipment slot="Item1"
+                   id="Item.reinforced_kite_shield" />
+        <equipment slot="Item2"
+                   id="Item.imperial_throwing_spear_1_t4" />
+        <equipment slot="Body"
+                   id="Item.imperial_mail_over_leather" />
+        <equipment slot="Cape"
+                   id="Item.imperial_studded_strip_shoulders" />
+        <equipment slot="Gloves"
+                   id="Item.decorated_imperial_gauntlets" />
+        <equipment slot="Leg"
+                   id="Item.leather_cavalier_boots" />
+        <equipment slot="Head"
+                   id="Item.heavy_nasalhelm_over_laced_cloth" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="uchiha_legionary"
+                default_group="Infantry"
+                level="26"
+                name="Uchiha Legionary"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="150" />
+      <skill id="Riding"
+             value="50" />
+      <skill id="OneHanded"
+             value="250" />
+      <skill id="TwoHanded"
+             value="150" />
+      <skill id="Polearm"
+             value="200" />
+      <skill id="Bow"
+             value="75" />
+      <skill id="Crossbow"
+             value="75" />
+      <skill id="Throwing"
+             value="225" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.uchiha_foot_knight" />
+      <upgrade_target id="NPCCharacter.uchiha_palace_knight" />
+    </upgrade_targets>
+
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_sword_5_t4" />
+        <equipment slot="Item1"
+                   id="Item.fortified_kite_shield" />
+        <equipment slot="Item2"
+                   id="Item.imperial_throwing_spear_1_t4" />
+        <equipment slot="Body"
+                   id="Item.coat_of_plates_over_mail" />
+        <equipment slot="Gloves"
+                   id="Item.lordly_mail_mitten" />
+        <equipment slot="Leg"
+                   id="Item.mail_cavalier_boots" />
+        <equipment slot="Head"
+                   id="Item.full_helm_over_laced_coif" />
+        <equipment slot="Cape"
+                   id="Item.pauldron_cape_a" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_sword_5_t4" />
+        <equipment slot="Item1"
+                   id="Item.fortified_kite_shield" />
+        <equipment slot="Item2"
+                   id="Item.imperial_throwing_spear_1_t4" />
+        <equipment slot="Body"
+                   id="Item.coat_of_plates_over_mail" />
+        <equipment slot="Gloves"
+                   id="Item.lordly_mail_mitten" />
+        <equipment slot="Leg"
+                   id="Item.mail_cavalier_boots" />
+        <equipment slot="Head"
+                   id="Item.full_helm_over_laced_coif" />
+        <equipment slot="Cape"
+                   id="Item.pauldron_cape_a" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_sword_5_t4" />
+        <equipment slot="Item1"
+                   id="Item.fortified_kite_shield" />
+        <equipment slot="Item2"
+                   id="Item.imperial_throwing_spear_1_t4" />
+        <equipment slot="Body"
+                   id="Item.coat_of_plates_over_mail" />
+        <equipment slot="Gloves"
+                   id="Item.lordly_mail_mitten" />
+        <equipment slot="Leg"
+                   id="Item.mail_cavalier_boots" />
+        <equipment slot="Head"
+                   id="Item.full_helm_over_laced_coif" />
+        <equipment slot="Cape"
+                   id="Item.pauldron_cape_a" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="uchiha_palace_knight"
+                default_group="Infantry"
+                level="31"
+                name="Uchiha Palace Knight"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="150" />
+      <skill id="Riding"
+             value="75" />
+      <skill id="OneHanded"
+             value="125" />
+      <skill id="TwoHanded"
+             value="275" />
+      <skill id="Polearm"
+             value="125" />
+      <skill id="Bow"
+             value="60" />
+      <skill id="Crossbow"
+             value="20" />
+      <skill id="Throwing"
+             value="200" />
+           </skills>
+             <upgrade_targets>
+             </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.aserai_2haxe_2_t4" />
+        <equipment slot="Item1"
+                   id="Item.southern_throwing_axe_1_t4" />
+        <equipment slot="Item2"
+                   id="Item.southern_throwing_axe_1_t4" />
+        <equipment slot="Body"
+                   id="Item.coat_of_plates_over_mail" />
+        <equipment slot="Gloves"
+                   id="Item.lordly_mail_mitten" />
+        <equipment slot="Leg"
+                   id="Item.mail_cavalier_boots" />
+        <equipment slot="Head"
+                   id="Item.full_helm_over_laced_coif" />
+        <equipment slot="Cape"
+                   id="Item.pauldron_cape_a" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.aserai_2haxe_2_t4" />
+        <equipment slot="Item1"
+                   id="Item.southern_throwing_axe_1_t4" />
+        <equipment slot="Item2"
+                   id="Item.southern_throwing_axe_1_t4" />
+        <equipment slot="Body"
+                   id="Item.coat_of_plates_over_mail" />
+        <equipment slot="Gloves"
+                   id="Item.lordly_mail_mitten" />
+        <equipment slot="Leg"
+                   id="Item.mail_cavalier_boots" />
+        <equipment slot="Head"
+                   id="Item.full_helm_over_laced_coif" />
+        <equipment slot="Cape"
+                   id="Item.pauldron_cape_a" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.aserai_2haxe_2_t4" />
+        <equipment slot="Item1"
+                   id="Item.southern_throwing_axe_1_t4" />
+        <equipment slot="Item2"
+                   id="Item.southern_throwing_axe_1_t4" />
+        <equipment slot="Body"
+                   id="Item.coat_of_plates_over_mail" />
+        <equipment slot="Gloves"
+                   id="Item.lordly_mail_mitten" />
+        <equipment slot="Leg"
+                   id="Item.mail_cavalier_boots" />
+        <equipment slot="Head"
+                   id="Item.full_helm_over_laced_coif" />
+        <equipment slot="Cape"
+                   id="Item.pauldron_cape_a" />
+      </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="uchiha_foot_knight"
+                default_group="Infantry"
+                level="31"
+                name="Uchiha Foot Knight"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="150" />
+      <skill id="Riding"
+             value="50" />
+      <skill id="OneHanded"
+             value="250" />
+      <skill id="TwoHanded"
+             value="150" />
+      <skill id="Polearm"
+             value="200" />
+      <skill id="Bow"
+             value="75" />
+      <skill id="Crossbow"
+             value="75" />
+      <skill id="Throwing"
+             value="225" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_sword_5_t4" />
+        <equipment slot="Item1"
+                   id="Item.tall_heater_shield" />
+        <equipment slot="Item2"
+                   id="Item.empire_polearm_2_t5" />
+        <equipment slot="Item3"
+                   id="Item.eastern_javelin_3_t4" />
+        <equipment slot="Body"
+                   id="Item.coat_of_plates_over_mail" />
+        <equipment slot="Gloves"
+                   id="Item.lordly_mail_mitten" />
+        <equipment slot="Leg"
+                   id="Item.mail_cavalier_boots" />
+        <equipment slot="Head"
+                   id="Item.full_helm_over_laced_coif" />
+        <equipment slot="Cape"
+                   id="Item.pauldron_cape_a" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_sword_5_t4" />
+        <equipment slot="Item1"
+                   id="Item.tall_heater_shield" />
+        <equipment slot="Item2"
+                   id="Item.empire_polearm_2_t5" />
+        <equipment slot="Item3"
+                   id="Item.eastern_javelin_3_t4" />
+        <equipment slot="Body"
+                   id="Item.coat_of_plates_over_mail" />
+        <equipment slot="Gloves"
+                   id="Item.lordly_mail_mitten" />
+        <equipment slot="Leg"
+                   id="Item.mail_cavalier_boots" />
+        <equipment slot="Head"
+                   id="Item.full_helm_over_laced_coif" />
+        <equipment slot="Cape"
+                   id="Item.pauldron_cape_a" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_sword_5_t4" />
+        <equipment slot="Item1"
+                   id="Item.tall_heater_shield" />
+        <equipment slot="Item2"
+                   id="Item.empire_polearm_2_t5" />
+        <equipment slot="Item3"
+                   id="Item.eastern_javelin_3_t4" />
+        <equipment slot="Body"
+                   id="Item.coat_of_plates_over_mail" />
+        <equipment slot="Gloves"
+                   id="Item.lordly_mail_mitten" />
+        <equipment slot="Leg"
+                   id="Item.mail_cavalier_boots" />
+        <equipment slot="Head"
+                   id="Item.full_helm_over_laced_coif" />
+        <equipment slot="Cape"
+                   id="Item.pauldron_cape_a" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- #endregionForInfantry -->
+
+
+<NPCCharacter id="uchiha_archer"
+                default_group="Ranged"
+                level="11"
+                name="Uchiha Archer"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="40" />
+      <skill id="Riding"
+             value="5" />
+      <skill id="OneHanded"
+             value="20" />
+      <skill id="TwoHanded"
+             value="40" />
+      <skill id="Polearm"
+             value="20" />
+      <skill id="Bow"
+             value="60" />
+      <skill id="Crossbow"
+             value="5" />
+      <skill id="Throwing"
+             value="5" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.uchiha_trained_archer" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.highland_ranger_bow" />
+        <equipment slot="Item1"
+                   id="Item.barbed_arrows" />
+        <equipment slot="Item2"
+                   id="Item.barbed_arrows" />
+        <equipment slot="Item3"
+                   id="Item.battania_2hsword_1_t2" />
+        <equipment slot="Body"
+                   id="Item.highland_cloth" />
+        <equipment slot="Gloves"
+                   id="Item.armwraps" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+        <equipment slot="Head"
+                   id="Item.battania_civil_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.highland_ranger_bow" />
+        <equipment slot="Item1"
+                   id="Item.barbed_arrows" />
+        <equipment slot="Item2"
+                   id="Item.barbed_arrows" />
+        <equipment slot="Item3"
+                   id="Item.battania_2haxe_1_t2" />
+        <equipment slot="Body"
+                   id="Item.highland_cloth" />
+        <equipment slot="Gloves"
+                   id="Item.armwraps" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+        <equipment slot="Head"
+                   id="Item.thinhide_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.highland_ranger_bow" />
+        <equipment slot="Item1"
+                   id="Item.barbed_arrows" />
+        <equipment slot="Item2"
+                   id="Item.barbed_arrows" />
+        <equipment slot="Item3"
+                   id="Item.battania_2hsword_1_t2" />
+        <equipment slot="Body"
+                   id="Item.highland_cloth" />
+        <equipment slot="Gloves"
+                   id="Item.armwraps" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+        <equipment slot="Head"
+                   id="Item.thinhide_coif" />
+      </EquipmentRoster>
+      <EquipmentSet id="battania_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="uchiha_trained_archer"
+                default_group="Ranged"
+                level="16"
+                name="Uchiha Trained Archer"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="80" />
+      <skill id="Riding"
+             value="10" />
+      <skill id="OneHanded"
+             value="30" />
+      <skill id="TwoHanded"
+             value="90" />
+      <skill id="Polearm"
+             value="30" />
+      <skill id="Bow"
+             value="100" />
+      <skill id="Crossbow"
+             value="10" />
+      <skill id="Throwing"
+             value="10" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.uchiha_veteran_archer" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.lowland_longbow" />
+        <equipment slot="Item1"
+                   id="Item.barbed_arrows" />
+        <equipment slot="Item2"
+                   id="Item.barbed_arrows" />
+        <equipment slot="Item3"
+                   id="Item.battania_2hsword_2_t3" />
+        <equipment slot="Body"
+                   id="Item.fur_armor_with_strap" />
+        <equipment slot="Gloves"
+                   id="Item.leather_gloves" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+        <equipment slot="Head"
+                   id="Item.battania_fur_helmet" />
+        <equipment slot="Cape"
+                   id="Item.battania_shoulder_furr" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.lowland_longbow" />
+        <equipment slot="Item1"
+                   id="Item.barbed_arrows" />
+        <equipment slot="Item2"
+                   id="Item.barbed_arrows" />
+        <equipment slot="Item3"
+                   id="Item.battania_2hsword_2_t3" />
+        <equipment slot="Body"
+                   id="Item.fur_armor_with_strap" />
+        <equipment slot="Gloves"
+                   id="Item.leather_gloves" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+        <equipment slot="Head"
+                   id="Item.battania_fur_helmet" />
+        <equipment slot="Cape"
+                   id="Item.battania_shoulder_furr" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.lowland_longbow" />
+        <equipment slot="Item1"
+                   id="Item.barbed_arrows" />
+        <equipment slot="Item2"
+                   id="Item.barbed_arrows" />
+        <equipment slot="Item3"
+                   id="Item.battania_2hsword_2_t3" />
+        <equipment slot="Body"
+                   id="Item.fur_armor_with_strap" />
+        <equipment slot="Gloves"
+                   id="Item.leather_gloves" />
+        <equipment slot="Leg"
+                   id="Item.battania_leather_boots" />
+        <equipment slot="Head"
+                   id="Item.battania_fur_helmet" />
+        <equipment slot="Cape"
+                   id="Item.battania_shoulder_furr" />
+      </EquipmentRoster>
+      <EquipmentSet id="battania_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="uchiha_veteran_archer"
+                default_group="Ranged"
+                level="21"
+                name="Uchiha Veteran Archer"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="100" />
+      <skill id="Riding"
+             value="25" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="110" />
+      <skill id="Polearm"
+             value="40" />
+      <skill id="Bow"
+             value="130" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="15" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.uchiha_shooter" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.lowland_longbow" />
+        <equipment slot="Item1"
+                   id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2"
+                   id="Item.bodkin_arrows_a" />
+        <equipment slot="Item3"
+                   id="Item.battania_2hsword_3_t3" />
+        <equipment slot="Body"
+                   id="Item.battanian_chainmail_armor_b" />
+        <equipment slot="Head"
+                   id="Item.ridged_northernhelm" />
+        <equipment slot="Cape"
+                   id="Item.battania_shoulder_furr" />
+        <equipment slot="Gloves"
+                   id="Item.highland_gloves" />
+        <equipment slot="Leg"
+                   id="Item.battania_woodland_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.lowland_longbow" />
+        <equipment slot="Item1"
+                   id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2"
+                   id="Item.bodkin_arrows_a" />
+        <equipment slot="Item3"
+                   id="Item.battania_2hsword_3_t3" />
+        <equipment slot="Body"
+                   id="Item.battanian_chainmail_armor_b" />
+        <equipment slot="Head"
+                   id="Item.ridged_northernhelm" />
+        <equipment slot="Cape"
+                   id="Item.battania_shoulder_furr" />
+        <equipment slot="Gloves"
+                   id="Item.highland_gloves" />
+        <equipment slot="Leg"
+                   id="Item.battania_woodland_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.lowland_longbow" />
+        <equipment slot="Item1"
+                   id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2"
+                   id="Item.bodkin_arrows_a" />
+        <equipment slot="Item3"
+                   id="Item.battania_2hsword_3_t3" />
+        <equipment slot="Body"
+                   id="Item.battanian_chainmail_armor_b" />
+        <equipment slot="Head"
+                   id="Item.ridged_northernhelm" />
+        <equipment slot="Cape"
+                   id="Item.battania_shoulder_furr" />
+        <equipment slot="Gloves"
+                   id="Item.highland_gloves" />
+        <equipment slot="Leg"
+                   id="Item.battania_woodland_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="battania_troop_civilian_template_t3"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="uchiha_shooter"
+                default_group="Ranged"
+                level="26"
+                name="Uchiha Shooter"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="130" />
+      <skill id="Riding"
+             value="80" />
+      <skill id="OneHanded"
+             value="80" />
+      <skill id="TwoHanded"
+             value="130" />
+      <skill id="Polearm"
+             value="60" />
+      <skill id="Bow"
+             value="160" />
+      <skill id="Crossbow"
+             value="20" />
+      <skill id="Throwing"
+             value="50" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.uchiha_sharpshooter" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.woodland_longbow" />
+        <equipment slot="Item1"
+                   id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2"
+                   id="Item.bodkin_arrows_a" />
+        <equipment slot="Item3"
+                   id="Item.battania_2hsword_5_t4" />
+        <equipment slot="Body"
+                   id="Item.battanian_chainmail_armor_a" />
+        <equipment slot="Head"
+                   id="Item.battanian_plated_noble_helmet" />
+        <equipment slot="Gloves"
+                   id="Item.highland_gloves" />
+        <equipment slot="Leg"
+                   id="Item.battania_warlord_boots" />
+        <equipment slot="Cape"
+                   id="Item.rough_bearskin" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.woodland_longbow" />
+        <equipment slot="Item1"
+                   id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2"
+                   id="Item.bodkin_arrows_a" />
+        <equipment slot="Item3"
+                   id="Item.battania_2hsword_5_t4" />
+        <equipment slot="Body"
+                   id="Item.battanian_chainmail_armor_c" />
+        <equipment slot="Head"
+                   id="Item.battanian_plated_noble_helmet" />
+        <equipment slot="Gloves"
+                   id="Item.highland_gloves" />
+        <equipment slot="Cape"
+                   id="Item.rough_bearskin" />
+        <equipment slot="Leg"
+                   id="Item.battania_warlord_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.woodland_longbow" />
+        <equipment slot="Item1"
+                   id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2"
+                   id="Item.bodkin_arrows_a" />
+        <equipment slot="Item3"
+                   id="Item.battania_2hsword_5_t4" />
+        <equipment slot="Body"
+                   id="Item.battanian_chainmail_armor_d" />
+        <equipment slot="Head"
+                   id="Item.battanian_plated_noble_helmet" />
+        <equipment slot="Gloves"
+                   id="Item.highland_gloves" />
+        <equipment slot="Cape"
+                   id="Item.rough_bearskin" />
+        <equipment slot="Leg"
+                   id="Item.battania_warlord_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="battania_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="uchiha_sharpshooter"
+                default_group="Ranged"
+                level="31"
+                name="Uchiha Sharpshooter"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="170" />
+      <skill id="Riding"
+             value="60" />
+      <skill id="OneHanded"
+             value="90" />
+      <skill id="TwoHanded"
+             value="220" />
+      <skill id="Polearm"
+             value="50" />
+      <skill id="Bow"
+             value="260" />
+      <skill id="Crossbow"
+             value="25" />
+      <skill id="Throwing"
+             value="40" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.woodland_longbow" />
+        <equipment slot="Item1"
+                   id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2"
+                   id="Item.bodkin_arrows_a" />
+        <equipment slot="Item3"
+                   id="Item.battania_2hsword_5_t4" />
+        <equipment slot="Body"
+                   id="Item.coat_of_plates_over_mail" />
+        <equipment slot="Gloves"
+                   id="Item.lordly_mail_mitten" />
+        <equipment slot="Leg"
+                   id="Item.mail_cavalier_boots" />
+        <equipment slot="Head"
+                   id="Item.full_helm_over_laced_coif" />
+        <equipment slot="Cape"
+                   id="Item.pauldron_cape_a" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.woodland_longbow" />
+        <equipment slot="Item1"
+                   id="Item.bodkin_arrows_a" />
+        <equipment slot="Item2"
+                   id="Item.bodkin_arrows_a" />
+        <equipment slot="Item3"
+                   id="Item.battania_2hsword_5_t4" />
+        <equipment slot="Body"
+                   id="Item.coat_of_plates_over_mail" />
+        <equipment slot="Gloves"
+                   id="Item.lordly_mail_mitten" />
+        <equipment slot="Leg"
+                   id="Item.mail_cavalier_boots" />
+        <equipment slot="Head"
+                   id="Item.full_helm_over_laced_coif" />
+        <equipment slot="Cape"
+                   id="Item.pauldron_cape_a" />
+      </EquipmentRoster>
+      <EquipmentSet id="battania_troop_civilian_template_t2"
+                    civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- #endregionForArchers -->
+
+  <NPCCharacter id="uchiha_horseman"
+                default_group="Cavalry"
+                level="16"
+                name="Uchiha Horseman"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="30" />
+      <skill id="Riding"
+             value="70" />
+      <skill id="OneHanded"
+             value="70" />
+      <skill id="TwoHanded"
+             value="40" />
+      <skill id="Polearm"
+             value="70" />
+      <skill id="Bow"
+             value="30" />
+      <skill id="Crossbow"
+             value="10" />
+      <skill id="Throwing"
+             value="40" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.uchiha_lancer" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.eastern_spear_3_t3" />
+        <equipment slot="Item1"
+                   id="Item.decorated_steppe_shield" />
+        <equipment slot="Item2"
+                   id="Item.khuzait_sword_2_t3" />
+        <equipment slot="Head"
+                   id="Item.nomad_helmet" />
+        <equipment slot="Body"
+                   id="Item.belted_leather_cuirass" />
+        <equipment slot="Leg"
+                   id="Item.eastern_leather_boots" />
+        <equipment slot="Gloves"
+                   id="Item.studded_leather_vambraces" />
+        <equipment slot="Cape"
+                   id="Item.khuzait_leather_pauldron" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.eastern_spear_3_t3" />
+        <equipment slot="Item1"
+                   id="Item.decorated_steppe_shield" />
+        <equipment slot="Item2"
+                   id="Item.khuzait_sword_2_t3" />
+        <equipment slot="Head"
+                   id="Item.nomad_helmet" />
+        <equipment slot="Body"
+                   id="Item.belted_leather_cuirass" />
+        <equipment slot="Leg"
+                   id="Item.eastern_leather_boots" />
+        <equipment slot="Cape"
+                   id="Item.khuzait_leather_pauldron" />
+        <equipment slot="Gloves"
+                   id="Item.studded_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.eastern_spear_3_t3" />
+        <equipment slot="Item1"
+                   id="Item.decorated_steppe_shield" />
+        <equipment slot="Item2"
+                   id="Item.khuzait_sword_2_t3" />
+        <equipment slot="Head"
+                   id="Item.plumed_fur_lined_helmet" />
+        <equipment slot="Body"
+                   id="Item.belted_leather_cuirass" />
+        <equipment slot="Leg"
+                   id="Item.eastern_leather_boots" />
+        <equipment slot="Cape"
+                   id="Item.khuzait_leather_pauldron" />
+        <equipment slot="Gloves"
+                   id="Item.studded_leather_vambraces" />
+      </EquipmentRoster>
+      <EquipmentSet id="khuzait_troop_civilian_template_t2"
+                    civilian="true" />
+      <equipment slot="Horse"
+                 id="Item.khuzait_horse" />
+      <equipment slot="HorseHarness"
+                 id="Item.steppe_fur_harness" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="uchiha_lancer"
+                default_group="Cavalry"
+                level="21"
+                name="Uchiha Lancer"
+                upgrade_requires="ItemCategory.war_horse"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="45" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="100" />
+      <skill id="TwoHanded"
+             value="60" />
+      <skill id="Polearm"
+             value="100" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="60" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.uchiha_heavy_lancer" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.khuzait_lance_1_t3" />
+        <equipment slot="Item1"
+                   id="Item.steppe_guardian_shield" />
+        <equipment slot="Item2"
+                   id="Item.khuzait_sword_3_t3" />
+        <equipment slot="Body"
+                   id="Item.eastern_lamellar_armor" />
+        <equipment slot="Head"
+                   id="Item.spiked_helmet" />
+        <equipment slot="Leg"
+                   id="Item.steppe_leather_boots" />
+        <equipment slot="Gloves"
+                   id="Item.rough_tied_bracers" />
+        <equipment slot="Cape"
+                   id="Item.eastern_studded_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.khuzait_lance_1_t3" />
+        <equipment slot="Item1"
+                   id="Item.steppe_guardian_shield" />
+        <equipment slot="Item2"
+                   id="Item.khuzait_sword_3_t3" />
+        <equipment slot="Body"
+                   id="Item.eastern_lamellar_armor" />
+        <equipment slot="Head"
+                   id="Item.spiked_helmet" />
+        <equipment slot="Leg"
+                   id="Item.steppe_leather_boots" />
+        <equipment slot="Gloves"
+                   id="Item.rough_tied_bracers" />
+        <equipment slot="Cape"
+                   id="Item.eastern_studded_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.khuzait_lance_1_t3" />
+        <equipment slot="Item1"
+                   id="Item.steppe_guardian_shield" />
+        <equipment slot="Item2"
+                   id="Item.khuzait_sword_3_t3" />
+        <equipment slot="Body"
+                   id="Item.eastern_lamellar_armor" />
+        <equipment slot="Body"
+                   id="Item.eastern_lamellar_armor" />
+        <equipment slot="Head"
+                   id="Item.spiked_helmet" />
+        <equipment slot="Leg"
+                   id="Item.steppe_leather_boots" />
+        <equipment slot="Gloves"
+                   id="Item.rough_tied_bracers" />
+        <equipment slot="Cape"
+                   id="Item.eastern_studded_shoulders" />
+      </EquipmentRoster>
+      <EquipmentSet id="khuzait_troop_civilian_template_t2"
+                    civilian="true" />
+      <equipment slot="Horse"
+                 id="Item.t2_khuzait_horse" />
+      <equipment slot="HorseHarness"
+                 id="Item.steppe_half_barding" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="uchiha_heavy_lancer"
+                default_group="Cavalry"
+                level="26"
+                name="Uchiha Heavy Lancer"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="150" />
+      <skill id="OneHanded"
+             value="130" />
+      <skill id="TwoHanded"
+             value="60" />
+      <skill id="Polearm"
+             value="130" />
+      <skill id="Bow"
+             value="20" />
+      <skill id="Crossbow"
+             value="20" />
+      <skill id="Throwing"
+             value="60" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.khuzait_lance_2_t4" />
+        <equipment slot="Item1"
+                   id="Item.steppe_guardian_shield" />
+        <equipment slot="Item2"
+                   id="Item.khuzait_sword_4_t4" />
+        <equipment slot="Body"
+                   id="Item.coat_of_plates_over_mail" />
+        <equipment slot="Gloves"
+                   id="Item.lordly_mail_mitten" />
+        <equipment slot="Leg"
+                   id="Item.mail_cavalier_boots" />
+        <equipment slot="Head"
+                   id="Item.full_helm_over_laced_coif" />
+        <equipment slot="Cape"
+                   id="Item.pauldron_cape_a" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.khuzait_lance_2_t4" />
+        <equipment slot="Item1"
+                   id="Item.steppe_guardian_shield" />
+        <equipment slot="Item2"
+                   id="Item.khuzait_sword_4_t4" />
+        <equipment slot="Body"
+                   id="Item.coat_of_plates_over_mail" />
+        <equipment slot="Gloves"
+                   id="Item.lordly_mail_mitten" />
+        <equipment slot="Leg"
+                   id="Item.mail_cavalier_boots" />
+        <equipment slot="Head"
+                   id="Item.full_helm_over_laced_coif" />
+        <equipment slot="Cape"
+                   id="Item.pauldron_cape_a" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.khuzait_lance_2_t4" />
+        <equipment slot="Item1"
+                   id="Item.steppe_guardian_shield" />
+        <equipment slot="Item2"
+                   id="Item.khuzait_sword_4_t4" />
+        <equipment slot="Body"
+                   id="Item.coat_of_plates_over_mail" />
+        <equipment slot="Gloves"
+                   id="Item.lordly_mail_mitten" />
+        <equipment slot="Leg"
+                   id="Item.mail_cavalier_boots" />
+        <equipment slot="Head"
+                   id="Item.full_helm_over_laced_coif" />
+        <equipment slot="Cape"
+                   id="Item.pauldron_cape_a" />
+      </EquipmentRoster>
+      <EquipmentSet id="khuzait_troop_civilian_template_t3"
+                    civilian="true" />
+      <equipment slot="Horse"
+                 id="Item.t2_khuzait_horse" />
+      <equipment slot="HorseHarness"
+                 id="Item.steppe_half_barding" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- #eliteTroops -->
+
+  <NPCCharacter id="uchiha_squire"
+                default_group="Cavalry"
+                level="11"
+                name="Elite Uchiha Squire"
+                occupation="Soldier"
+                is_basic_troop="true"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="30" />
+      <skill id="Riding"
+             value="40" />
+      <skill id="OneHanded"
+             value="45" />
+      <skill id="TwoHanded"
+             value="10" />
+      <skill id="Polearm"
+             value="40" />
+      <skill id="Bow"
+             value="10" />
+      <skill id="Crossbow"
+             value="10" />
+      <skill id="Throwing"
+             value="10" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.uchiha_gallant" />
+      <upgrade_target id="NPCCharacter.uchiha_elite_light_horse_archer" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.vlandia_mace_1_t2" />
+        <equipment slot="Item1"
+                   id="Item.western_riders_kite_shield" />
+        <equipment slot="Item2"
+                   id="Item.western_spear_1_t2" />
+        <equipment slot="Body"
+                   id="Item.aketon" />
+        <equipment slot="Leg"
+                   id="Item.leather_cavalier_boots" />
+        <equipment slot="Head"
+                   id="Item.padded_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.vlandia_sword_1_t2" />
+        <equipment slot="Item1"
+                   id="Item.western_riders_kite_shield" />
+        <equipment slot="Item2"
+                   id="Item.western_spear_1_t2" />
+        <equipment slot="Body"
+                   id="Item.aketon" />
+        <equipment slot="Leg"
+                   id="Item.leather_cavalier_boots" />
+        <equipment slot="Head"
+                   id="Item.padded_coif" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.vlandia_mace_1_t2" />
+        <equipment slot="Item1"
+                   id="Item.western_riders_kite_shield" />
+        <equipment slot="Item2"
+                   id="Item.western_spear_1_t2" />
+        <equipment slot="Body"
+                   id="Item.aketon" />
+        <equipment slot="Leg"
+                   id="Item.leather_cavalier_boots" />
+        <equipment slot="Head"
+                   id="Item.padded_coif" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t1"
+                    civilian="true" />
+      <equipment slot="Horse"
+                 id="Item.vlandia_horse" />
+      <equipment slot="HorseHarness"
+                 id="Item.light_harness" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="uchiha_gallant"
+                default_group="Cavalry"
+                level="16"
+                name="Elite Uchiha Gallant"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="30" />
+      <skill id="Riding"
+             value="70" />
+      <skill id="OneHanded"
+             value="100" />
+      <skill id="TwoHanded"
+             value="30" />
+      <skill id="Polearm"
+             value="100" />
+      <skill id="Bow"
+             value="10" />
+      <skill id="Crossbow"
+             value="10" />
+      <skill id="Throwing"
+             value="10" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.uchiha_knight" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.vlandia_lance_1_t3" />
+        <equipment slot="Item1"
+                   id="Item.northern_horsemans_shield" />
+        <equipment slot="Item2"
+                   id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Body"
+                   id="Item.mail_shirt" />
+        <equipment slot="Leg"
+                   id="Item.leather_cavalier_boots" />
+        <equipment slot="Head"
+                   id="Item.nasal_helmet_over_mail" />
+        <equipment slot="Gloves"
+                   id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.vlandia_lance_1_t3" />
+        <equipment slot="Item1"
+                   id="Item.northern_horsemans_shield" />
+        <equipment slot="Item2"
+                   id="Item.vlandia_sword_2_t3" />
+        <equipment slot="Body"
+                   id="Item.mail_shirt" />
+        <equipment slot="Leg"
+                   id="Item.leather_cavalier_boots" />
+        <equipment slot="Head"
+                   id="Item.nasal_helmet_over_padded_cloth" />
+        <equipment slot="Gloves"
+                   id="Item.padded_vambrace" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t2"
+                    civilian="true" />
+      <equipment slot="Horse"
+                 id="Item.vlandia_horse" />
+      <equipment slot="HorseHarness"
+                 id="Item.stripped_leather_harness" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="uchiha_knight"
+                default_group="Cavalry"
+                level="21"
+                name="Elite Uchiha Knight"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="90" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="100" />
+      <skill id="TwoHanded"
+             value="60" />
+      <skill id="Polearm"
+             value="110" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="45" />
+      <skill id="Throwing"
+             value="15" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.uchiha_champion" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.vlandia_lance_2_t4" />
+        <equipment slot="Item1"
+                   id="Item.northern_horsemans_shield" />
+        <equipment slot="Item2"
+                   id="Item.vlandia_mace_2_t4" />
+        <equipment slot="Body"
+                   id="Item.hauberk" />
+        <equipment slot="Leg"
+                   id="Item.mail_cavalier_boots" />
+        <equipment slot="Head"
+                   id="Item.nasal_helmet_over_laced_coif" />
+        <equipment slot="Gloves"
+                   id="Item.mail_mitten" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.vlandia_lance_2_t4" />
+        <equipment slot="Item1"
+                   id="Item.northern_horsemans_shield" />
+        <equipment slot="Item2"
+                   id="Item.vlandia_sword_4_t4" />
+        <equipment slot="Body"
+                   id="Item.vlandia_chainmail" />
+        <equipment slot="Leg"
+                   id="Item.mail_chausses" />
+        <equipment slot="Head"
+                   id="Item.nasal_helmet_over_padded_coif" />
+        <equipment slot="Gloves"
+                   id="Item.mail_mitten" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.vlandia_lance_2_t4" />
+        <equipment slot="Item1"
+                   id="Item.northern_horsemans_shield" />
+        <equipment slot="Item2"
+                   id="Item.vlandia_mace_2_t4" />
+        <equipment slot="Body"
+                   id="Item.hauberk" />
+        <equipment slot="Leg"
+                   id="Item.mail_chausses" />
+        <equipment slot="Head"
+                   id="Item.nasal_helmet_over_padded_coif" />
+        <equipment slot="Gloves"
+                   id="Item.mail_mitten" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t2"
+                    civilian="true" />
+      <equipment slot="Horse"
+                 id="Item.vlandia_horse" />
+      <equipment slot="HorseHarness"
+                 id="Item.chain_barding" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="uchiha_silvinds_guard"
+                default_group="Cavalry"
+                level="36"
+                name="Silvind's Guard"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="75" />
+      <skill id="Riding"
+             value="225" />
+      <skill id="OneHanded"
+             value="275" />
+      <skill id="TwoHanded"
+             value="175" />
+      <skill id="Polearm"
+             value="275" />
+      <skill id="Bow"
+             value="50" />
+      <skill id="Crossbow"
+             value="75" />
+      <skill id="Throwing"
+             value="250" />
+    </skills>
+    <upgrade_targets>
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_polearm_2_t5" />
+        <equipment slot="Item1"
+                   id="Item.leather_round_shield" />
+        <equipment slot="Item2"
+                   id="Item.empire_sword_5_t4" />
+        <equipment slot="Item3"
+                   id="Item.eastern_javelin_3_t4" />
+        <equipment slot="Body"
+                   id="Item.sturgian_lamellar_fortified" />
+        <equipment slot="Leg"
+                   id="Item.decorated_imperial_boots" />
+        <equipment slot="Head"
+                   id="Item.sturgian_helmet_b_close" />
+        <equipment slot="Gloves"
+                   id="Item.lamellar_plate_gauntlets" />
+        <equipment slot="Cape"
+                   id="Item.pauldron_cape_a" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_polearm_2_t5" />
+        <equipment slot="Item1"
+                   id="Item.leather_round_shield" />
+        <equipment slot="Item2"
+                   id="Item.empire_sword_5_t4" />
+        <equipment slot="Item3"
+                   id="Item.eastern_javelin_3_t4" />
+        <equipment slot="Body"
+                   id="Item.sturgian_lamellar_fortified" />
+        <equipment slot="Leg"
+                   id="Item.decorated_imperial_boots" />
+        <equipment slot="Head"
+                   id="Item.sturgian_helmet_b_close" />
+        <equipment slot="Gloves"
+                   id="Item.lamellar_plate_gauntlets" />
+        <equipment slot="Cape"
+                   id="Item.pauldron_cape_a" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.empire_polearm_2_t5" />
+        <equipment slot="Item1"
+                   id="Item.leather_round_shield" />
+        <equipment slot="Item2"
+                   id="Item.empire_sword_5_t4" />
+        <equipment slot="Item3"
+                   id="Item.eastern_javelin_3_t4" />
+        <equipment slot="Body"
+                   id="Item.sturgian_lamellar_fortified" />
+        <equipment slot="Leg"
+                   id="Item.decorated_imperial_boots" />
+        <equipment slot="Head"
+                   id="Item.sturgian_helmet_b_close" />
+        <equipment slot="Gloves"
+                   id="Item.lamellar_plate_gauntlets" />
+        <equipment slot="Cape"
+                   id="Item.pauldron_cape_a" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t2"
+                    civilian="true" />
+      <equipment slot="Horse"
+                 id="Item.aserai_horse" />
+      <equipment slot="HorseHarness"
+                 id="Item.imperial_scale_barding" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="uchiha_champion"
+                default_group="Cavalry"
+                level="26"
+                name="Elite Uchiha Champion"
+                upgrade_requires="ItemCategory.war_horse"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="80" />
+      <skill id="Riding"
+             value="130" />
+      <skill id="OneHanded"
+             value="130" />
+      <skill id="TwoHanded"
+             value="60" />
+      <skill id="Polearm"
+             value="160" />
+      <skill id="Bow"
+             value="20" />
+      <skill id="Crossbow"
+             value="50" />
+      <skill id="Throwing"
+             value="80" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.uchiha_banner_knight" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.vlandia_lance_2_t4" />
+        <equipment slot="Item1"
+                   id="Item.heavy_horsemans_kite_shield" />
+        <equipment slot="Item2"
+                   id="Item.vlandia_mace_2_t4" />
+        <equipment slot="Body"
+                   id="Item.coat_of_plates_over_mail" />
+        <equipment slot="Leg"
+                   id="Item.strapped_mail_chausses" />
+        <equipment slot="Head"
+                   id="Item.full_helm_over_cloth_headwrap" />
+        <equipment slot="Gloves"
+                   id="Item.lordly_mail_mitten" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.vlandia_lance_2_t4" />
+        <equipment slot="Item1"
+                   id="Item.heavy_horsemans_kite_shield" />
+        <equipment slot="Item2"
+                   id="Item.vlandia_sword_4_t4" />
+        <equipment slot="Body"
+                   id="Item.coat_of_plates_over_mail" />
+        <equipment slot="Leg"
+                   id="Item.mail_chausses" />
+        <equipment slot="Head"
+                   id="Item.full_helm_over_cloth_headwrap" />
+        <equipment slot="Gloves"
+                   id="Item.reinforced_mail_mitten" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.vlandia_lance_2_t4" />
+        <equipment slot="Item1"
+                   id="Item.heavy_horsemans_kite_shield" />
+        <equipment slot="Item2"
+                   id="Item.vlandia_axe_2_t4" />
+        <equipment slot="Body"
+                   id="Item.coat_of_plates_over_mail" />
+        <equipment slot="Leg"
+                   id="Item.mail_chausses" />
+        <equipment slot="Head"
+                   id="Item.full_helm_over_cloth_headwrap" />
+        <equipment slot="Gloves"
+                   id="Item.reinforced_mail_mitten" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t3"
+                    civilian="true" />
+      <equipment slot="Horse"
+                 id="Item.t2_vlandia_horse" />
+      <equipment slot="HorseHarness"
+                 id="Item.chain_barding" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="uchiha_banner_knight"
+                default_group="Cavalry"
+                level="31"
+                name="Elite Uchiha Banner Knight"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="200" />
+      <skill id="OneHanded"
+             value="220" />
+      <skill id="TwoHanded"
+             value="60" />
+      <skill id="Polearm"
+             value="260" />
+      <skill id="Bow"
+             value="25" />
+      <skill id="Crossbow"
+             value="60" />
+      <skill id="Throwing"
+             value="30" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.uchiha_silvinds_guard" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.vlandia_lance_2_t4" />
+        <equipment slot="Item1"
+                   id="Item.heavy_horsemans_kite_shield" />
+        <equipment slot="Item2"
+                   id="Item.vlandia_sword_4_t4" />
+        <equipment slot="Body"
+                   id="Item.coat_of_plates_over_mail" />
+        <equipment slot="Leg"
+                   id="Item.mail_cavalier_boots" />
+        <equipment slot="Head"
+                   id="Item.full_helm_over_laced_coif" />
+        <equipment slot="Gloves"
+                   id="Item.lordly_mail_mitten" />
+        <equipment slot="Cape"
+                   id="Item.green_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.vlandia_lance_2_t4" />
+        <equipment slot="Item1"
+                   id="Item.heavy_horsemans_kite_shield" />
+        <equipment slot="Item2"
+                   id="Item.vlandia_axe_2_t4" />
+        <equipment slot="Body"
+                   id="Item.coat_of_plates_over_mail" />
+        <equipment slot="Leg"
+                   id="Item.mail_cavalier_boots" />
+        <equipment slot="Head"
+                   id="Item.full_helm_over_laced_coif" />
+        <equipment slot="Gloves"
+                   id="Item.lordly_mail_mitten" />
+        <equipment slot="Cape"
+                   id="Item.green_hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.vlandia_lance_2_t4" />
+        <equipment slot="Item1"
+                   id="Item.heavy_horsemans_kite_shield" />
+        <equipment slot="Item2"
+                   id="Item.vlandia_mace_2_t4" />
+        <equipment slot="Body"
+                   id="Item.coat_of_plates_over_mail" />
+        <equipment slot="Leg"
+                   id="Item.mail_cavalier_boots" />
+        <equipment slot="Head"
+                   id="Item.full_helm_over_laced_coif" />
+        <equipment slot="Gloves"
+                   id="Item.lordly_mail_mitten" />
+        <equipment slot="Cape"
+                   id="Item.green_hood" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t3"
+                    civilian="true" />
+      <equipment slot="Horse"
+                 id="Item.t2_vlandia_horse" />
+      <equipment slot="HorseHarness"
+                 id="Item.chain_barding" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- #endHeavyCav -->
+
+  <NPCCharacter id="uchiha_elite_light_horse_archer"
+                default_group="HorseArcher"
+                level="16"
+                name="{=UYPaQP2j}Elite Uchiha Light Horse Archer"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="40" />
+      <skill id="Riding"
+             value="70" />
+      <skill id="OneHanded"
+             value="45" />
+      <skill id="TwoHanded"
+             value="30" />
+      <skill id="Polearm"
+             value="70" />
+      <skill id="Bow"
+             value="70" />
+      <skill id="Crossbow"
+             value="10" />
+      <skill id="Throwing"
+             value="25" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.uchiha_horse_archer" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.composite_bow" />
+        <equipment slot="Item1"
+                   id="Item.steppe_arrows" />
+        <equipment slot="Item2"
+                   id="Item.eastern_spear_3_t3" />
+        <equipment slot="Item3"
+                   id="Item.khuzait_sword_1_t2" />
+        <equipment slot="Body"
+                   id="Item.khuzait_sturdy_armor" />
+        <equipment slot="Head"
+                   id="Item.peaked_fur_hood" />
+        <equipment slot="Leg"
+                   id="Item.eastern_leather_boots" />
+        <equipment slot="Gloves"
+                   id="Item.buttoned_leather_bracers" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.composite_bow" />
+        <equipment slot="Item1"
+                   id="Item.steppe_arrows" />
+        <equipment slot="Item2"
+                   id="Item.eastern_spear_3_t3" />
+        <equipment slot="Item3"
+                   id="Item.khuzait_sword_1_t2" />
+        <equipment slot="Body"
+                   id="Item.khuzait_sturdy_armor" />
+        <equipment slot="Head"
+                   id="Item.fur_hood" />
+        <equipment slot="Leg"
+                   id="Item.eastern_leather_boots" />
+        <equipment slot="Gloves"
+                   id="Item.buttoned_leather_bracers" />
+        <equipment slot="Cape"
+                   id="Item.eastern_studded_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.composite_bow" />
+        <equipment slot="Item1"
+                   id="Item.steppe_arrows" />
+        <equipment slot="Item2"
+                   id="Item.eastern_spear_3_t3" />
+        <equipment slot="Item3"
+                   id="Item.khuzait_sword_1_t2" />
+        <equipment slot="Body"
+                   id="Item.khuzait_sturdy_armor" />
+        <equipment slot="Cape"
+                   id="Item.steppe_leather_shoulders" />
+        <equipment slot="Head"
+                   id="Item.fur_hood" />
+        <equipment slot="Leg"
+                   id="Item.eastern_leather_boots" />
+        <equipment slot="Gloves"
+                   id="Item.buttoned_leather_bracers" />
+      </EquipmentRoster>
+      <EquipmentSet id="khuzait_troop_civilian_template_t2"
+                    civilian="true" />
+      <equipment slot="Horse"
+                 id="Item.khuzait_horse" />
+      <equipment slot="HorseHarness"
+                 id="Item.steppe_harness" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="uchiha_horse_archer"
+                default_group="HorseArcher"
+                level="21"
+                name="Elite Uchiha Horse Archer"
+                upgrade_requires="ItemCategory.war_horse"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="45" />
+      <skill id="Riding"
+             value="110" />
+      <skill id="OneHanded"
+             value="40" />
+      <skill id="TwoHanded"
+             value="40" />
+      <skill id="Polearm"
+             value="110" />
+      <skill id="Bow"
+             value="150" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="15" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.uchiha_kheshig" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.steppe_heavy_bow" />
+        <equipment slot="Item1"
+                   id="Item.steppe_arrows" />
+        <equipment slot="Item2"
+                   id="Item.khuzait_polearm_1_t4" />
+        <equipment slot="Item3"
+                   id="Item.khuzait_sword_2_t3" />
+        <equipment slot="Body"
+                   id="Item.leather_lamellar_armor" />
+        <equipment slot="Head"
+                   id="Item.plumed_nomad_helmet" />
+        <equipment slot="Leg"
+                   id="Item.khuzait_curved_boots" />
+        <equipment slot="Gloves"
+                   id="Item.studded_leather_vambraces" />
+        <equipment slot="Cape"
+                   id="Item.leather_lamellar_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.steppe_heavy_bow" />
+        <equipment slot="Item1"
+                   id="Item.steppe_arrows" />
+        <equipment slot="Item2"
+                   id="Item.khuzait_polearm_1_t4" />
+        <equipment slot="Item3"
+                   id="Item.khuzait_sword_2_t3" />
+        <equipment slot="Body"
+                   id="Item.leather_lamellar_armor" />
+        <equipment slot="Head"
+                   id="Item.plumed_nomad_helmet" />
+        <equipment slot="Leg"
+                   id="Item.khuzait_curved_boots" />
+        <equipment slot="Gloves"
+                   id="Item.studded_leather_vambraces" />
+        <equipment slot="Cape"
+                   id="Item.leather_lamellar_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.steppe_heavy_bow" />
+        <equipment slot="Item1"
+                   id="Item.steppe_arrows" />
+        <equipment slot="Item2"
+                   id="Item.khuzait_polearm_1_t4" />
+        <equipment slot="Item3"
+                   id="Item.khuzait_sword_2_t3" />
+        <equipment slot="Body"
+                   id="Item.leather_lamellar_armor" />
+        <equipment slot="Head"
+                   id="Item.nomad_helmet" />
+        <equipment slot="Leg"
+                   id="Item.khuzait_curved_boots" />
+        <equipment slot="Gloves"
+                   id="Item.studded_leather_vambraces" />
+        <equipment slot="Cape"
+                   id="Item.leather_lamellar_shoulders" />
+      </EquipmentRoster>
+      <EquipmentSet id="khuzait_troop_civilian_template_t2"
+                    civilian="true" />
+      <equipment slot="Horse"
+                 id="Item.t2_khuzait_horse" />
+      <equipment slot="HorseHarness"
+                 id="Item.steppe_half_barding" />
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="uchiha_kheshig"
+                default_group="HorseArcher"
+                level="26"
+                name="Elite Uchiha Kheshig"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="80" />
+      <skill id="Riding"
+             value="130" />
+      <skill id="OneHanded"
+             value="50" />
+      <skill id="TwoHanded"
+             value="50" />
+      <skill id="Polearm"
+             value="130" />
+      <skill id="Bow"
+             value="160" />
+      <skill id="Crossbow"
+             value="20" />
+      <skill id="Throwing"
+             value="60" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.uchiha_elite_guard" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.steppe_war_bow" />
+        <equipment slot="Item1"
+                   id="Item.steppe_arrows" />
+        <equipment slot="Item2"
+                   id="Item.khuzait_polearm_1_t4" />
+        <equipment slot="Item3"
+                   id="Item.khuzait_sword_2_t3" />
+        <equipment slot="Body"
+                   id="Item.khuzait_lamellar_strapped" />
+        <equipment slot="Head"
+                   id="Item.spiked_helmet" />
+        <equipment slot="Leg"
+                   id="Item.khuzait_curved_boots" />
+        <equipment slot="Gloves"
+                   id="Item.eastern_plated_leather_vambraces" />
+        <equipment slot="Cape"
+                   id="Item.eastern_studded_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.steppe_war_bow" />
+        <equipment slot="Item1"
+                   id="Item.steppe_arrows" />
+        <equipment slot="Item2"
+                   id="Item.khuzait_polearm_1_t4" />
+        <equipment slot="Item3"
+                   id="Item.khuzait_sword_2_t3" />
+        <equipment slot="Body"
+                   id="Item.khuzait_lamellar_strapped" />
+        <equipment slot="Head"
+                   id="Item.spiked_helmet" />
+        <equipment slot="Leg"
+                   id="Item.khuzait_curved_boots" />
+        <equipment slot="Gloves"
+                   id="Item.eastern_plated_leather_vambraces" />
+        <equipment slot="Cape"
+                   id="Item.eastern_studded_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.composite_steppe_bow" />
+        <equipment slot="Item1"
+                   id="Item.steppe_arrows" />
+        <equipment slot="Item2"
+                   id="Item.khuzait_polearm_1_t4" />
+        <equipment slot="Item3"
+                   id="Item.khuzait_sword_2_t3" />
+        <equipment slot="Body"
+                   id="Item.khuzait_lamellar_strapped" />
+        <equipment slot="Head"
+                   id="Item.spiked_helmet" />
+        <equipment slot="Leg"
+                   id="Item.khuzait_curved_boots" />
+        <equipment slot="Gloves"
+                   id="Item.eastern_plated_leather_vambraces" />
+        <equipment slot="Cape"
+                   id="Item.eastern_studded_shoulders" />
+      </EquipmentRoster>
+      <EquipmentSet id="khuzait_troop_civilian_template_t3"
+                    civilian="true" />
+      <equipment slot="Horse"
+                 id="Item.t2_khuzait_horse" />
+      <equipment slot="HorseHarness"
+                 id="Item.steppe_half_barding" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="uchiha_elite_guard"
+                default_group="HorseArcher"
+                level="31"
+                name="Elite Uchiha Guard"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="200" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="60" />
+      <skill id="Polearm"
+             value="220" />
+      <skill id="Bow"
+             value="260" />
+      <skill id="Crossbow"
+             value="25" />
+      <skill id="Throwing"
+             value="30" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.composite_steppe_bow" />
+        <equipment slot="Item1"
+                   id="Item.steppe_arrows" />
+        <equipment slot="Item2"
+                   id="Item.steppe_arrows" />
+        <equipment slot="Item3"
+                   id="Item.khuzait_polearm_1_t4" />
+        <equipment slot="Body"
+                   id="Item.coat_of_plates_over_mail" />
+        <equipment slot="Gloves"
+                   id="Item.lordly_mail_mitten" />
+        <equipment slot="Leg"
+                   id="Item.mail_cavalier_boots" />
+        <equipment slot="Head"
+                   id="Item.full_helm_over_laced_coif" />
+        <equipment slot="Cape"
+                   id="Item.pauldron_cape_a" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.composite_steppe_bow" />
+        <equipment slot="Item1"
+                   id="Item.steppe_arrows" />
+        <equipment slot="Item2"
+                   id="Item.steppe_arrows" />
+        <equipment slot="Item3"
+                   id="Item.khuzait_polearm_1_t4" />
+        <equipment slot="Body"
+                   id="Item.coat_of_plates_over_mail" />
+        <equipment slot="Gloves"
+                   id="Item.lordly_mail_mitten" />
+        <equipment slot="Leg"
+                   id="Item.mail_cavalier_boots" />
+        <equipment slot="Head"
+                   id="Item.full_helm_over_laced_coif" />
+        <equipment slot="Cape"
+                   id="Item.pauldron_cape_a" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0"
+                   id="Item.composite_steppe_bow" />
+        <equipment slot="Item1"
+                   id="Item.steppe_arrows" />
+        <equipment slot="Item2"
+                   id="Item.steppe_arrows" />
+        <equipment slot="Item3"
+                   id="Item.khuzait_polearm_1_t4" />
+        <equipment slot="Body"
+                   id="Item.coat_of_plates_over_mail" />
+        <equipment slot="Gloves"
+                   id="Item.lordly_mail_mitten" />
+        <equipment slot="Leg"
+                   id="Item.mail_cavalier_boots" />
+        <equipment slot="Head"
+                   id="Item.full_helm_over_laced_coif" />
+        <equipment slot="Cape"
+                   id="Item.pauldron_cape_a" />
+      </EquipmentRoster>
+      <EquipmentSet id="khuzait_troop_civilian_template_t3"
+                    civilian="true" />
+      <equipment slot="Horse"
+                 id="Item.t2_khuzait_horse" />
+      <equipment slot="HorseHarness"
+                 id="Item.imperial_scale_barding" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- #endregion -->
+  <!-- #endregion -->
+</NPCCharacters>

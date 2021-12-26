@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+	<Name value = "Custom Clan"/>
+	<Id value = "CustomClan"/>
+	<Version value = "e1.6.0"/>
+	<DefaultModule value="false"/>
+	<SingleplayerModule value="true"/>
+	<DependedModules>
+		<DependedModule Id="Native" DependentVersion="e1.6.0"/>
+		<DependedModule Id="Native" />
+    	<DependedModule Id="SandBoxCore" />
+    	<DependedModule Id="Sandbox" />
+    	<DependedModule Id="StoryMode" />
+    	<DependedModule Id="CustomBattle" />
+	</DependedModules>
+    <SubModules/>
+    <Xmls>
+    	<XmlNode>               
+			<XmlName id="NPCCharacters" path="lords"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>               
+			<XmlName id="NPCCharacters" path="lords_vlandia"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>               
+			<XmlName id="NPCCharacters" path="lords_battania"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>               
+			<XmlName id="NPCCharacters" path="lords_sturgia"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>               
+			<XmlName id="NPCCharacters" path="lords_khuzait"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode> 
+		<XmlName id="Heroes" path="heroes"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>                
+			<XmlName id="Factions" path="spclans"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode> 
+    </Xmls>
+</Module>

@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>             <!-- Males 1, 1_3 ;females 1_2, 1_4-->
+       <NPCCharacter id="custom_lord_1"
+                name="Urus"
+                age="24"
+                voice="ironic"
+                culture="Culture.aserai"
+                occupation="Lord"
+                is_hero="true"
+                default_group="Cavalry"
+                face_mesh_cache="true">
+       <face>
+       <!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+       <BodyProperties version="4" key="0020F80800002794C782350B3B71AFB7098A8017A2755525A9B9AD468B0C5D6803577035F564A704000000000000000000000000000000000000000060A87042"  />
+       </face>
+       <skills></skills>
+       <Traits>
+       <Trait id="BalancedFightingSkills"
+             value="3" />
+       <Trait id="Commander"
+             value="7" />
+       <Trait id="Politician"
+             value="7" />
+       <Trait id="Manager"
+             value="7" />
+       <Trait id="Valor"
+             value="-1" />
+       <Trait id="Generosity"
+             value="1" />
+       <Trait id="Calculating"
+             value="1" />
+       <Trait id="Oligarchic"
+             value="1" />
+       </Traits>
+       <Equipments>
+       <EquipmentRoster />
+       <EquipmentSet id="ase_bat_template_flamboyant" />
+       <EquipmentSet id="ase_civ_template_flamboyant"
+                    civilian="true" />
+       </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="custom_lord_1_2"
+                name="Awie"
+                age="22"
+                voice="ironic"
+                default_group="Cavalry"
+                is_hero="true"
+                is_female="true"
+                culture="Culture.aserai"
+                occupation="Lord"
+                face_mesh_cache="true">
+       <face>
+       <BodyProperties version="4"  
+       weight="0.5" 
+       build="0.5"  
+       key="001BF40800002015988044094881DCF25D518415A18656179A8899478D2C5A5300777003F73CC43500000000000000000000000000000000000000007EF02003"  />
+       </face>
+       <skills></skills>
+       <Traits>
+       <Trait id="CavalryFightingSkills"
+             value="7" />
+       <Trait id="Commander"
+             value="6" />
+       <Trait id="Politician"
+             value="7" />
+       <Trait id="Manager"
+             value="3" />
+       <Trait id="Valor"
+             value="1" />
+       <Trait id="Generosity"
+             value="1" />
+       <Trait id="Honor"
+             value="-1" />
+       <Trait id="Egalitarian"
+             value="1" />
+       </Traits>
+       <Equipments>
+       <EquipmentRoster />
+       <EquipmentSet id="ase_bat_template_medium" />
+       <EquipmentSet id="ase_civ_template_bedouin"
+                    civilian="true" />
+       </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="custom_lord_1_3"
+                name="Abbas"
+                age="24"
+                voice="ironic"
+                culture="Culture.aserai"
+                occupation="Lord"
+                is_hero="true"
+                default_group="Cavalry"
+                face_mesh_cache="true">
+       <face>
+       <!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+       <BodyProperties version="4" weight="0.5" build="0.5"  key="0023700D0014111263B8C87941868498779B7575E6765678C27788B8C8AE759501B77614FB95A66500000000000000000000000000000000000000007F6C40C2"  />
+       </face>
+       <skills></skills>
+       <Traits>
+       <Trait id="BalancedFightingSkills"
+             value="3" />
+       <Trait id="Commander"
+             value="7" />
+       <Trait id="Politician"
+             value="7" />
+       <Trait id="Manager"
+             value="7" />
+       <Trait id="Valor"
+             value="-1" />
+       <Trait id="Generosity"
+             value="1" />
+       <Trait id="Calculating"
+             value="1" />
+       <Trait id="Oligarchic"
+             value="1" />
+       </Traits>
+       <Equipments>
+       <EquipmentRoster />
+       <EquipmentSet id="ase_bat_template_flamboyant" />
+       <EquipmentSet id="ase_civ_template_flamboyant"
+                    civilian="true" />
+       </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="custom_lord_1_4"
+                name="Kareena"
+                age="22"
+                voice="ironic"
+                default_group="Cavalry"
+                is_hero="true"
+                is_female="true"
+                culture="Culture.aserai"
+                occupation="Lord"
+                face_mesh_cache="true">
+       <face>
+       <BodyProperties version="4"  weight="0.5" build="0.5"  key="001E70040000300A9772C4C436AA7887A435497444328E72DB8C48519D57749A00877103F8BA29780000387A00000AEB0000003300000000000000007F104003"  />
+       </face>
+       <skills></skills>
+       <Traits>
+       <Trait id="CavalryFightingSkills"
+             value="7" />
+       <Trait id="Commander"
+             value="6" />
+       <Trait id="Politician"
+             value="7" />
+       <Trait id="Manager"
+             value="3" />
+       <Trait id="Valor"
+             value="1" />
+       <Trait id="Generosity"
+             value="1" />
+       <Trait id="Honor"
+             value="-1" />
+       <Trait id="Egalitarian"
+             value="1" />
+       </Traits>
+       <Equipments>
+       <EquipmentRoster />
+       <EquipmentSet id="ase_bat_template_medium" />
+       <EquipmentSet id="ase_civ_template_bedouin"
+                    civilian="true" />
+       </Equipments>
+       </NPCCharacter>
+<!--   #lordClan_1 ended -->
+
+       <!--Males 2, 2_1 females 2_2,2_3-->
+       <NPCCharacter id="custom_lord_2"
+                name="Aladin"
+                age="26"
+                voice="ironic"
+                culture="Culture.aserai"
+                occupation="Lord"
+                is_hero="true"
+                default_group="Cavalry"
+                face_mesh_cache="true">
+       <face>
+       <!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+       <BodyProperties version="4" key="0015C80800001597BA83341737814FC43B578027A2557115ABB98E678A0A686704977046F979E52400000000000000000000000000000000000000007F3850C2"  />
+       </face>
+       <skills></skills>
+       <Traits>
+       <Trait id="BalancedFightingSkills"
+             value="3" />
+       <Trait id="Commander"
+             value="7" />
+       <Trait id="Politician"
+             value="7" />
+       <Trait id="Manager"
+             value="7" />
+       <Trait id="Valor"
+             value="0" />
+       <Trait id="Generosity"
+             value="1" />
+       <Trait id="Calculating"
+             value="1" />
+       <Trait id="Oligarchic"
+             value="1" />
+       </Traits>
+       <Equipments>
+       <EquipmentRoster />
+       <EquipmentSet id="ase_bat_template_flamboyant" />
+       <EquipmentSet id="ase_civ_template_flamboyant"
+                    civilian="true" />
+       </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="custom_lord_2_1"
+                name="Abdul"
+                age="24"
+                voice="ironic"
+                culture="Culture.aserai"
+                occupation="Lord"
+                is_hero="true"
+                default_group="Cavalry"
+                face_mesh_cache="true">
+       <face>
+       <!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+       <BodyProperties version="4" key="0020F80800002794C782350B3B71AFB7098A8017A2755525A9B9AD468B0C5D6803577035F564A704000000000000000000000000000000000000000060A87042"  />
+       </face>
+       <skills></skills>
+       <Traits>
+       <Trait id="BalancedFightingSkills"
+             value="3" />
+       <Trait id="Commander"
+             value="7" />
+       <Trait id="Politician"
+             value="7" />
+       <Trait id="Manager"
+             value="7" />
+       <Trait id="Valor"
+             value="2" />
+       <Trait id="Generosity"
+             value="1" />
+       <Trait id="Calculating"
+             value="1" />
+       <Trait id="Oligarchic"
+             value="1" />
+       </Traits>
+       <Equipments>
+       <EquipmentRoster />
+       <EquipmentSet id="ase_bat_template_flamboyant" />
+       <EquipmentSet id="ase_civ_template_flamboyant"
+                    civilian="true" />
+       </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="custom_lord_2_2"
+                name="Leiya"
+                age="22"
+                voice="ironic"
+                default_group="Cavalry"
+                is_hero="true"
+                is_female="true"
+                culture="Culture.aserai"
+                occupation="Lord"
+                face_mesh_cache="true">
+       <face>
+       <BodyProperties version="4" 
+              weight="0.5" 
+              build="0.5"  
+              key="001E8C0D910030016982442CABD127719C46724BA187A130BBA3EA457A6C574700877603F802B35C00000000000000000000000000000000000000007F044003"  />
+       </face>
+       <skills></skills>
+       <Traits>
+       <Trait id="CavalryFightingSkills"
+             value="7" />
+       <Trait id="Commander"
+             value="6" />
+       <Trait id="Politician"
+             value="7" />
+       <Trait id="Manager"
+             value="3" />
+       <Trait id="Valor"
+             value="1" />
+       <Trait id="Generosity"
+             value="1" />
+       <Trait id="Honor"
+             value="-1" />
+       <Trait id="Egalitarian"
+             value="1" />
+       </Traits>
+       <Equipments>
+       <EquipmentRoster />
+       <EquipmentSet id="ase_bat_template_medium" />
+       <EquipmentSet id="ase_civ_template_bedouin"
+                    civilian="true" />
+       </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="custom_lord_2_3"
+                name="Nadia"
+                age="22"
+                voice="ironic"
+                default_group="Cavalry"
+                is_hero="true"
+                is_female="true"
+                culture="Culture.aserai"
+                occupation="Lord"
+                face_mesh_cache="true">
+       <face>
+       <BodyProperties version="4" weight="0.5" build="0.5"  key="001E700D800030029772C4C436AA7887A435497444328E72DB8C48519D57749A00877103F8BA29780000387A00000AEB0000003300000000000000007F104003"  />
+       </face>
+       <skills></skills>
+       <Traits>
+       <Trait id="CavalryFightingSkills"
+             value="7" />
+       <Trait id="Commander"
+             value="6" />
+       <Trait id="Politician"
+             value="7" />
+       <Trait id="Manager"
+             value="3" />
+       <Trait id="Valor"
+             value="1" />
+       <Trait id="Generosity"
+             value="1" />
+       <Trait id="Honor"
+             value="-1" />
+       <Trait id="Egalitarian"
+             value="1" />
+       </Traits>
+       <Equipments>
+       <EquipmentRoster />
+       <EquipmentSet id="ase_bat_template_medium" />
+       <EquipmentSet id="ase_civ_template_bedouin"
+                    civilian="true" />
+       </Equipments>
+       </NPCCharacter>
+<!--   #lordClan_2 end -->
+       <!--Males 3,3_2 Females 3_1,3_3-->
+       <NPCCharacter id="custom_lord_3"
+                name="Saladdhin"
+                age="26"
+                voice="ironic"
+                culture="Culture.aserai"
+                occupation="Lord"
+                is_hero="true"
+                default_group="Cavalry"
+                face_mesh_cache="true">
+       <face>
+       <!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+       <BodyProperties version="4" key="0005680150701404C37B6D89A64664B96727852B496B67A19757A65ADAA7992402877824F845845600001105000030A30000001F00000000000000007F086002"  />
+       </face>
+       <skills></skills>
+       <Traits>
+       <Trait id="BalancedFightingSkills"
+             value="3" />
+       <Trait id="Commander"
+             value="7" />
+       <Trait id="Politician"
+             value="7" />
+       <Trait id="Manager"
+             value="7" />
+       <Trait id="Valor"
+             value="-1" />
+       <Trait id="Generosity"
+             value="1" />
+       <Trait id="Calculating"
+             value="1" />
+       <Trait id="Oligarchic"
+             value="1" />
+       </Traits>
+       <Equipments>
+       <EquipmentRoster />
+       <EquipmentSet id="ase_bat_template_flamboyant" />
+       <EquipmentSet id="ase_civ_template_flamboyant"
+                    civilian="true" />
+       </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="custom_lord_3_1"
+                name="Suhana"
+                age="22"
+                voice="ironic"
+                default_group="Cavalry"
+                is_hero="true"
+                is_female="true"
+                culture="Culture.aserai"
+                occupation="Lord"
+                face_mesh_cache="true">
+       <face>
+       <BodyProperties version="4" 
+              weight="0.5" 
+              build="0.5"  
+              key="001E8C0D910030016982442CABD127719C46724BA187A130BBA3EA457A6C574700877603F802B35C00000000000000000000000000000000000000007F044003"  />
+       </face>
+       <skills></skills>
+       <Traits>
+       <Trait id="CavalryFightingSkills"
+             value="7" />
+       <Trait id="Commander"
+             value="6" />
+       <Trait id="Politician"
+             value="7" />
+       <Trait id="Manager"
+             value="3" />
+       <Trait id="Valor"
+             value="1" />
+       <Trait id="Generosity"
+             value="1" />
+       <Trait id="Honor"
+             value="-1" />
+       <Trait id="Egalitarian"
+             value="1" />
+       </Traits>
+       <Equipments>
+       <EquipmentRoster />
+       <EquipmentSet id="ase_bat_template_medium" />
+       <EquipmentSet id="ase_civ_template_bedouin"
+                    civilian="true" />
+       </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="custom_lord_3_2"
+                name="Abdel"
+                age="26"
+                voice="ironic"
+                culture="Culture.aserai"
+                occupation="Lord"
+                is_hero="true"
+                default_group="Cavalry"
+                face_mesh_cache="true">
+       <face>
+       <!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+       <BodyProperties version="4" weight="0.5" build="0.5"  key="001E700D1900340A9772C4C436AA7887A435497444328E72DB8C48519D57749A00877103F8BA29780000387A00000AEB0000003300000000000000007F105002"  />
+       </face>
+       <skills></skills>
+       <Traits>
+       <Trait id="BalancedFightingSkills"
+             value="3" />
+       <Trait id="Commander"
+             value="7" />
+       <Trait id="Politician"
+             value="7" />
+       <Trait id="Manager"
+             value="7" />
+       <Trait id="Valor"
+             value="-1" />
+       <Trait id="Generosity"
+             value="1" />
+       <Trait id="Calculating"
+             value="1" />
+       <Trait id="Oligarchic"
+             value="1" />
+       </Traits>
+       <Equipments>
+       <EquipmentRoster />
+       <EquipmentSet id="ase_bat_template_flamboyant" />
+       <EquipmentSet id="ase_civ_template_flamboyant"
+                    civilian="true" />
+       </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="custom_lord_3_3"
+                name="Hafsa"
+                age="22"
+                voice="ironic"
+                default_group="Cavalry"
+                is_hero="true"
+                is_female="true"
+                culture="Culture.aserai"
+                occupation="Lord"
+                face_mesh_cache="true">
+       <face>
+       <BodyProperties version="4" weight="0.5" build="0.5"  key="001EF80D000030026372C4C436AA7887A435497444328776DB8C48519D57749A00877103F8BA29780000387A00000AEB0000003300000000000000007F102003"  />
+       </face>
+       <skills></skills>
+       <Traits>
+       <Trait id="CavalryFightingSkills"
+             value="7" />
+       <Trait id="Commander"
+             value="6" />
+       <Trait id="Politician"
+             value="7" />
+       <Trait id="Manager"
+             value="3" />
+       <Trait id="Valor"
+             value="1" />
+       <Trait id="Generosity"
+             value="1" />
+       <Trait id="Honor"
+             value="-1" />
+       <Trait id="Egalitarian"
+             value="1" />
+       </Traits>
+       <Equipments>
+       <EquipmentRoster />
+       <EquipmentSet id="ase_bat_template_medium" />
+       <EquipmentSet id="ase_civ_template_bedouin"
+                    civilian="true" />
+       </Equipments>
+       </NPCCharacter>
+
+<!--End of lord 3 clan 3 -->
+
+       <NPCCharacter id="custom_lord_4"
+                name="Salman"
+                age="24"
+                voice="ironic"
+                culture="Culture.aserai"
+                occupation="Lord"
+                is_hero="true"
+                default_group="Cavalry"
+                face_mesh_cache="true">
+       <face>
+       <!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+       <BodyProperties version="4" weight="0.5" build="0.5"  key="001E70041900340A9772C4C436AA7887A435497444328E72DB8C48519D57749A01877113F8BA29780000387A00000AEB0000003300000000000000007F105002"  />
+       </face>
+       <skills></skills>
+       <Traits>
+       <Trait id="BalancedFightingSkills"
+             value="3" />
+       <Trait id="Commander"
+             value="7" />
+       <Trait id="Politician"
+             value="7" />
+       <Trait id="Manager"
+             value="7" />
+       <Trait id="Valor"
+             value="-1" />
+       <Trait id="Generosity"
+             value="1" />
+       <Trait id="Calculating"
+             value="1" />
+       <Trait id="Oligarchic"
+             value="1" />
+       </Traits>
+       <Equipments>
+       <EquipmentRoster />
+       <EquipmentSet id="ase_bat_template_flamboyant" />
+       <EquipmentSet id="ase_civ_template_flamboyant"
+                    civilian="true" />
+       </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="custom_lord_4_1"
+                name="Abdullah"
+                age="24"
+                voice="ironic"
+                culture="Culture.aserai"
+                occupation="Lord"
+                is_hero="true"
+                default_group="Cavalry"
+                face_mesh_cache="true">
+       <face>
+       <!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+       <BodyProperties version="4" weight="0.5" build="0.5"  key="0023100400B4020DC66F69A052632C57D98458CAA8CA55C96B66BB47ACB9C85401A77613FA88664700000000000000000000000000000000000000007B602002"  />
+       </face>
+       <skills></skills>
+       <Traits>
+       <Trait id="BalancedFightingSkills"
+             value="3" />
+       <Trait id="Commander"
+             value="7" />
+       <Trait id="Politician"
+             value="7" />
+       <Trait id="Manager"
+             value="7" />
+       <Trait id="Valor"
+             value="-1" />
+       <Trait id="Generosity"
+             value="1" />
+       <Trait id="Calculating"
+             value="1" />
+       <Trait id="Oligarchic"
+             value="1" />
+       </Traits>
+       <Equipments>
+       <EquipmentRoster />
+       <EquipmentSet id="ase_bat_template_flamboyant" />
+       <EquipmentSet id="ase_civ_template_flamboyant"
+                    civilian="true" />
+       </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="custom_lord_4_2"
+                name="Malika"
+                age="22"
+                voice="ironic"
+                default_group="Cavalry"
+                is_hero="true"
+                is_female="true"
+                culture="Culture.aserai"
+                occupation="Lord"
+                face_mesh_cache="true">
+       <face>
+       <BodyProperties version="4" weight="0.5" build="0.5"  key="0020D80D807010018873324163A357B4966D873971979A028B644405773A5B2400877603F88B799C00000000000000000000000000000000000000007F041083"  />
+       </face>
+       <skills></skills>
+       <Traits>
+       <Trait id="CavalryFightingSkills"
+             value="7" />
+       <Trait id="Commander"
+             value="6" />
+       <Trait id="Politician"
+             value="7" />
+       <Trait id="Manager"
+             value="3" />
+       <Trait id="Valor"
+             value="1" />
+       <Trait id="Generosity"
+             value="1" />
+       <Trait id="Honor"
+             value="-1" />
+       <Trait id="Egalitarian"
+             value="1" />
+       </Traits>
+       <Equipments>
+       <EquipmentRoster />
+       <EquipmentSet id="ase_bat_template_medium" />
+       <EquipmentSet id="ase_civ_template_bedouin"
+                    civilian="true" />
+       </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="custom_lord_4_3"
+                name="Shamima"
+                age="22"
+                voice="ironic"
+                default_group="Cavalry"
+                is_hero="true"
+                is_female="true"
+                culture="Culture.aserai"
+                occupation="Lord"
+                face_mesh_cache="true">
+       <face>
+       <BodyProperties version="4" weight="0.5" build="0.5"  key="0020D80AC00020118982510588A2A7348A60717AC375A0229E99C736896F575503A776350A1CB33200000000000000000000000000000000000000007F542043"  />
+       </face>
+       <skills></skills>
+       <Traits>
+       <Trait id="CavalryFightingSkills"
+             value="7" />
+       <Trait id="Commander"
+             value="6" />
+       <Trait id="Politician"
+             value="7" />
+       <Trait id="Manager"
+             value="3" />
+       <Trait id="Valor"
+             value="1" />
+       <Trait id="Generosity"
+             value="1" />
+       <Trait id="Honor"
+             value="-1" />
+       <Trait id="Egalitarian"
+             value="1" />
+       </Traits>
+       <Equipments>
+       <EquipmentRoster />
+       <EquipmentSet id="ase_bat_template_medium" />
+       <EquipmentSet id="ase_civ_template_bedouin"
+                    civilian="true" />
+       </Equipments>
+       </NPCCharacter>
+<!--   #end of clan 4-->
+       
+       <NPCCharacter id="custom_lord_5"
+                name="Alhauddin"
+                age="24"
+                voice="ironic"
+                culture="Culture.aserai"
+                occupation="Lord"
+                is_hero="true"
+                default_group="Cavalry"
+                face_mesh_cache="true">
+       <face>
+       <!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+       <BodyProperties version="4" weight="0.5" build="0.5"  key="0023B00800001A14A78244373A714DB139C2813792826026AA79AC688B185E4502277024F24675B0000000000000000000000000000000000000000068486082"  />
+       </face>
+       <skills></skills>
+       <Traits>
+       <Trait id="BalancedFightingSkills"
+             value="3" />
+       <Trait id="Commander"
+             value="7" />
+       <Trait id="Politician"
+             value="7" />
+       <Trait id="Manager"
+             value="7" />
+       <Trait id="Valor"
+             value="-1" />
+       <Trait id="Generosity"
+             value="1" />
+       <Trait id="Calculating"
+             value="1" />
+       <Trait id="Oligarchic"
+             value="1" />
+       </Traits>
+       <Equipments>
+       <EquipmentRoster />
+       <EquipmentSet id="ase_bat_template_flamboyant" />
+       <EquipmentSet id="ase_civ_template_flamboyant"
+                    civilian="true" />
+       </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="custom_lord_5_1"
+                name="Rahim"
+                age="24"
+                voice="ironic"
+                culture="Culture.aserai"
+                occupation="Lord"
+                is_hero="true"
+                default_group="Cavalry"
+                face_mesh_cache="true">
+       <face>
+       <!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+       <BodyProperties version="4" weight="0.5" build="0.5"  key="0023B00800001A15A78244373A714DB139C2813792826026AA79AC688B185E4502277024F24675B0000000000000000000000000000000000000000068486082"  />
+       </face>
+       <skills></skills>
+       <Traits>
+       <Trait id="BalancedFightingSkills"
+             value="3" />
+       <Trait id="Commander"
+             value="7" />
+       <Trait id="Politician"
+             value="7" />
+       <Trait id="Manager"
+             value="7" />
+       <Trait id="Valor"
+             value="-1" />
+       <Trait id="Generosity"
+             value="1" />
+       <Trait id="Calculating"
+             value="1" />
+       <Trait id="Oligarchic"
+             value="1" />
+       </Traits>
+       <Equipments>
+       <EquipmentRoster />
+       <EquipmentSet id="ase_bat_template_flamboyant" />
+       <EquipmentSet id="ase_civ_template_flamboyant"
+                    civilian="true" />
+       </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="custom_lord_5_2"
+                name="Adil"
+                age="24"
+                voice="ironic"
+                culture="Culture.aserai"
+                occupation="Lord"
+                is_hero="true"
+                default_group="Cavalry"
+                face_mesh_cache="true">
+       <face>
+       <!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+       <BodyProperties version="4" weight="0.5" build="0.5"  key="0023B00800001444A78244373A714DB139C2813792826026AA79AC688B185E4502277024F24675B0000000000000000000000000000000000000000068486082"  />
+       </face>
+       <skills></skills>
+       <Traits>
+       <Trait id="BalancedFightingSkills"
+             value="3" />
+       <Trait id="Commander"
+             value="7" />
+       <Trait id="Politician"
+             value="7" />
+       <Trait id="Manager"
+             value="7" />
+       <Trait id="Valor"
+             value="-1" />
+       <Trait id="Generosity"
+             value="1" />
+       <Trait id="Calculating"
+             value="1" />
+       <Trait id="Oligarchic"
+             value="1" />
+       </Traits>
+       <Equipments>
+       <EquipmentRoster />
+       <EquipmentSet id="ase_bat_template_flamboyant" />
+       <EquipmentSet id="ase_civ_template_flamboyant"
+                    civilian="true" />
+       </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="custom_lord_5_3"
+                name="Latifa"
+                age="22"
+                voice="ironic"
+                default_group="Cavalry"
+                is_hero="true"
+                is_female="true"
+                culture="Culture.aserai"
+                occupation="Lord"
+                face_mesh_cache="true">
+       <face>
+       <BodyProperties version="4" weight="0.5" build="0.5"  key="0023B00800001004A78244373A714DB139C2813792826026AA79AC688B185E4502277024F24675B0000000000000000000000000000000000000000068484083"  />
+       </face>
+       <skills></skills>
+       <Traits>
+       <Trait id="CavalryFightingSkills"
+             value="7" />
+       <Trait id="Commander"
+             value="6" />
+       <Trait id="Politician"
+             value="7" />
+       <Trait id="Manager"
+             value="3" />
+       <Trait id="Valor"
+             value="1" />
+       <Trait id="Generosity"
+             value="1" />
+       <Trait id="Honor"
+             value="-1" />
+       <Trait id="Egalitarian"
+             value="1" />
+       </Traits>
+       <Equipments>
+       <EquipmentRoster />
+       <EquipmentSet id="ase_bat_template_medium" />
+       <EquipmentSet id="ase_civ_template_bedouin"
+                    civilian="true" />
+       </Equipments>
+       </NPCCharacter>
+       <NPCCharacter id="custom_lord_5_4"
+                name="Sarah"
+                age="22"
+                voice="ironic"
+                default_group="Cavalry"
+                is_hero="true"
+                is_female="true"
+                culture="Culture.aserai"
+                occupation="Lord"
+                face_mesh_cache="true">
+       <face>
+       <BodyProperties version="4" weight="0.5" build="0.5"  key="0023B00800001002A78244373A714DB139C2813792826026AA79AC688B185E4502277024F24675B0000000000000000000000000000000000000000068484083"  />
+       </face>
+       <skills></skills>
+       <Traits>
+       <Trait id="CavalryFightingSkills"
+             value="7" />
+       <Trait id="Commander"
+             value="6" />
+       <Trait id="Politician"
+             value="7" />
+       <Trait id="Manager"
+             value="3" />
+       <Trait id="Valor"
+             value="1" />
+       <Trait id="Generosity"
+             value="1" />
+       <Trait id="Honor"
+             value="-1" />
+       <Trait id="Egalitarian"
+             value="1" />
+       </Traits>
+       <Equipments>
+       <EquipmentRoster />
+       <EquipmentSet id="ase_bat_template_medium" />
+       <EquipmentSet id="ase_civ_template_bedouin"
+                    civilian="true" />
+       </Equipments>
+       </NPCCharacter>
+
+</NPCCharacters>

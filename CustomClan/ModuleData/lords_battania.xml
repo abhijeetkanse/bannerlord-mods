@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>		<!--Males 1, 1_1, 1_2;  Females 1_3,1_4-->
+	<NPCCharacter id="battania_lord_1"
+                name="Rhagyd"
+                age="23"
+                voice="softspoken"
+                default_group="HorseArcher"
+                is_hero="true"
+                culture="Culture.battania"
+                occupation="Lord"
+                face_mesh_cache="true">
+	    <face>
+	      <BodyProperties version="4" weight="0.5" build="0.5"  key="00088C06C000138488333724947BC936C9488FA966662B56ACA8A26C988A18B600C77403FCA97C6500000000000000000000000000000000000000007F983002"  />
+	    </face>
+	    <skills></skills>
+	    <Traits>
+	      <Trait id="BalancedFightingSkills"
+	             value="4" />
+	      <Trait id="Commander"
+	             value="5" />
+	      <Trait id="Politician"
+	             value="7" />
+	      <Trait id="Manager"
+	             value="8" />
+	      <!-- Ergeon fen Derngil, submits to Caradog because he recognizes his capacity to lead, cautious -->
+	      <Trait id="Mercy"
+	             value="1" />
+	      <Trait id="Honor"
+	             value="1" />
+	      <Trait id="Valor"
+	             value="1" />
+	      <Trait id="Calculating"
+	             value="1" />
+	    </Traits>
+	    <Equipments>
+	      <EquipmentRoster />
+	      <EquipmentSet id="bat_bat_template_medium" />
+	      <EquipmentSet id="bat_civ_template_default"
+	                    civilian="true" />
+	    </Equipments>
+  	</NPCCharacter>
+  	<NPCCharacter id="battania_lord_1_1"
+                name="Egan"
+                age="23"
+                voice="softspoken"
+                default_group="HorseArcher"
+                is_hero="true"
+                culture="Culture.battania"
+                occupation="Lord"
+                face_mesh_cache="true">
+	    <face>
+	      <BodyProperties version="4" weight="0.5" build="0.5"  key="00088C06C000124588333724947BC936C9488FA966662B56ACA8A26C988A18B600C77403FCA97C6500000000000000000000000000000000000000007F983002"  />
+	    </face>
+	    <skills></skills>
+	    <Traits>
+	      <Trait id="BalancedFightingSkills"
+	             value="4" />
+	      <Trait id="Commander"
+	             value="5" />
+	      <Trait id="Politician"
+	             value="7" />
+	      <Trait id="Manager"
+	             value="8" />
+	      <!-- Ergeon fen Derngil, submits to Caradog because he recognizes his capacity to lead, cautious -->
+	      <Trait id="Mercy"
+	             value="-1" />
+	      <Trait id="Honor"
+	             value="1" />
+	      <Trait id="Valor"
+	             value="1" />
+	      <Trait id="Calculating"
+	             value="1" />
+	    </Traits>
+	    <Equipments>
+	      <EquipmentRoster />
+	      <EquipmentSet id="bat_bat_template_medium" />
+	      <EquipmentSet id="bat_civ_template_default"
+	                    civilian="true" />
+	    </Equipments>
+  	</NPCCharacter>
+  	<NPCCharacter id="battania_lord_1_2"
+                name="Aedid"
+                age="23"
+                voice="softspoken"
+                default_group="HorseArcher"
+                is_hero="true"
+                culture="Culture.battania"
+                occupation="Lord"
+                face_mesh_cache="true">
+	    <face>
+	      <BodyProperties version="4" weight="0.5" build="0.5"  key="00088C06C00013CD88333724947BC936C9488FA966662B56ACA8A26C988A18B600C77403FCA97C6500000000000000000000000000000000000000007F983002"  />
+	    </face>
+	    <skills></skills>
+	    <Traits>
+	      <Trait id="BalancedFightingSkills"
+	             value="4" />
+	      <Trait id="Commander"
+	             value="5" />
+	      <Trait id="Politician"
+	             value="7" />
+	      <Trait id="Manager"
+	             value="8" />
+	      <!-- Ergeon fen Derngil, submits to Caradog because he recognizes his capacity to lead, cautious -->
+	      <Trait id="Mercy"
+	             value="1" />
+	      <Trait id="Honor"
+	             value="-1" />
+	      <Trait id="Valor"
+	             value="-1" />
+	      <Trait id="Calculating"
+	             value="1" />
+	    </Traits>
+	    <Equipments>
+	      <EquipmentRoster />
+	      <EquipmentSet id="bat_bat_template_medium" />
+	      <EquipmentSet id="bat_civ_template_default"
+	                    civilian="true" />
+	    </Equipments>
+  	</NPCCharacter>
+  	<NPCCharacter id="battania_lord_1_3"
+                name="Iona"
+                age="21"
+                voice="curt"
+                is_female="true"
+                culture="Culture.battania"
+                occupation="Lord"
+                default_group="Cavalry"
+                is_hero="true"
+                face_mesh_cache="true">
+	    <face>
+	      <!--face_key value="0008800340fc20035646d8a987894c9488f76dd9a2367a3858b6c6698734870800040000073c8c7a000000000000000000000000000000000000000000004000" /-->
+	      <BodyProperties version="4" weight="0.5" build="0.5"  key="000A9805401420068771233587A43345B881874967868927DC887C587568764800877603F814894600000000000000000000000000000000000000007F041083"  />
+	    </face>
+	    <skills>
+	    </skills>
+	    <Traits>
+	      <!-- COMBATANT FEMALE -->
+	      <Trait id="BalancedFightingSkills"
+	             value="7" />
+	      <Trait id="Commander"
+	             value="7" />
+	      <Trait id="Politician"
+	             value="6" />
+	      <Trait id="Manager"
+	             value="2" />
+	      <Trait id="Mercy"
+	             value="-1" />
+	      <Trait id="Generosity"
+	             value="-1" />
+	      <Trait id="Valor"
+	             value="1" />
+	    </Traits>
+	    <Equipments>
+	      <EquipmentRoster />
+	      <EquipmentSet id="bat_bat_template_wild" />
+	      <EquipmentSet id="bat_civ_template_wild"
+	                    civilian="true" />
+	    </Equipments>
+  	</NPCCharacter>
+  	<NPCCharacter id="battania_lord_1_4"
+                name="Istiona"
+                age="21"
+                voice="curt"
+                is_female="true"
+                culture="Culture.battania"
+                occupation="Lord"
+                default_group="Cavalry"
+                is_hero="true"
+                face_mesh_cache="true">
+	    <face>
+	      <!--face_key value="0008800340fc20035646d8a987894c9488f76dd9a2367a3858b6c6698734870800040000073c8c7a000000000000000000000000000000000000000000004000" /-->
+	      <BodyProperties version="4" weight="0.5" build="0.5"  key="000A9805401420018771233587A43345B881874967868927DC887C587568764800877603F814894600000000000000000000000000000000000000007F041083"  />
+	    </face>
+	    <skills>
+	    </skills>
+	    <Traits>
+	      <!-- COMBATANT FEMALE -->
+	      <Trait id="BalancedFightingSkills"
+	             value="7" />
+	      <Trait id="Commander"
+	             value="7" />
+	      <Trait id="Politician"
+	             value="6" />
+	      <Trait id="Manager"
+	             value="2" />
+	      <Trait id="Mercy"
+	             value="-1" />
+	      <Trait id="Generosity"
+	             value="-1" />
+	      <Trait id="Valor"
+	             value="1" />
+	    </Traits>
+	    <Equipments>
+	      <EquipmentRoster />
+	      <EquipmentSet id="bat_bat_template_wild" />
+	      <EquipmentSet id="bat_civ_template_wild"
+	                    civilian="true" />
+	    </Equipments>
+  	</NPCCharacter>
+
+<!--#clan 1 end-->
+
+  	<NPCCharacter id="battania_lord_2"
+                name="Urien"
+                age="23"
+                voice="softspoken"
+                default_group="HorseArcher"
+                is_hero="true"
+                culture="Culture.battania"
+                occupation="Lord"
+                face_mesh_cache="true">
+	    <face>
+	      <BodyProperties version="4" weight="0.5" build="0.5"  key="00054406C00027855CA466A563442BD406899779A794573B86A7C473581AB48703777635F746C99D00000000000000000000000000000000000000007EF03142"  />
+	    </face>
+	    <skills></skills>
+	    <Traits>
+	      <Trait id="BalancedFightingSkills"
+	             value="4" />
+	      <Trait id="Commander"
+	             value="5" />
+	      <Trait id="Politician"
+	             value="7" />
+	      <Trait id="Manager"
+	             value="8" />
+	      <!-- Ergeon fen Derngil, submits to Caradog because he recognizes his capacity to lead, cautious -->
+	      <Trait id="Mercy"
+	             value="1" />
+	      <Trait id="Honor"
+	             value="1" />
+	      <Trait id="Valor"
+	             value="1" />
+	      <Trait id="Calculating"
+	             value="1" />
+	    </Traits>
+	    <Equipments>
+	      <EquipmentRoster />
+	      <EquipmentSet id="bat_bat_template_medium" />
+	      <EquipmentSet id="bat_civ_template_default"
+	                    civilian="true" />
+	    </Equipments>
+  	</NPCCharacter>
+  	<NPCCharacter id="battania_lord_2_1"
+                name="Borun"
+                age="23"
+                voice="softspoken"
+                default_group="HorseArcher"
+                is_hero="true"
+                culture="Culture.battania"
+                occupation="Lord"
+                face_mesh_cache="true">
+	    <face>
+	      <BodyProperties version="4" weight="0.5" build="0.5"  key="000544080000238E5CA466A563442BD406899779A794573B86A7C473581AB48703777635F746C99D00000000000000000000000000000000000000007EF03142"  />
+	    </face>
+	    <skills></skills>
+	    <Traits>
+	      <Trait id="BalancedFightingSkills"
+	             value="4" />
+	      <Trait id="Commander"
+	             value="5" />
+	      <Trait id="Politician"
+	             value="7" />
+	      <Trait id="Manager"
+	             value="8" />
+	      <!-- Ergeon fen Derngil, submits to Caradog because he recognizes his capacity to lead, cautious -->
+	      <Trait id="Mercy"
+	             value="-1" />
+	      <Trait id="Honor"
+	             value="1" />
+	      <Trait id="Valor"
+	             value="1" />
+	      <Trait id="Calculating"
+	             value="1" />
+	    </Traits>
+	    <Equipments>
+	      <EquipmentRoster />
+	      <EquipmentSet id="bat_bat_template_medium" />
+	      <EquipmentSet id="bat_civ_template_default"
+	                    civilian="true" />
+	    </Equipments>
+  	</NPCCharacter>
+  	<NPCCharacter id="battania_lord_2_2"
+                name="Breadan"
+                age="23"
+                voice="softspoken"
+                default_group="HorseArcher"
+                is_hero="true"
+                culture="Culture.battania"
+                occupation="Lord"
+                face_mesh_cache="true">
+	    <face>
+	      <BodyProperties version="4" weight="0.4582" build="0.6273"  key="00054408000023CF5CA466A563442BD406899779A794573B86A7C473581AB48701897613F846C99D000000000000000000000000000000000000000077083142"  />
+	    </face>
+	    <skills></skills>
+	    <Traits>
+	      <Trait id="BalancedFightingSkills"
+	             value="4" />
+	      <Trait id="Commander"
+	             value="5" />
+	      <Trait id="Politician"
+	             value="7" />
+	      <Trait id="Manager"
+	             value="8" />
+	      <!-- Ergeon fen Derngil, submits to Caradog because he recognizes his capacity to lead, cautious -->
+	      <Trait id="Mercy"
+	             value="1" />
+	      <Trait id="Honor"
+	             value="-1" />
+	      <Trait id="Valor"
+	             value="-1" />
+	      <Trait id="Calculating"
+	             value="1" />
+	    </Traits>
+	    <Equipments>
+	      <EquipmentRoster />
+	      <EquipmentSet id="bat_bat_template_medium" />
+	      <EquipmentSet id="bat_civ_template_default"
+	                    civilian="true" />
+	    </Equipments>
+  	</NPCCharacter>
+  	<NPCCharacter id="battania_lord_2_3"
+                name="Abeil"
+                age="21"
+                voice="curt"
+                is_female="true"
+                culture="Culture.battania"
+                occupation="Lord"
+                default_group="Cavalry"
+                is_hero="true"
+                face_mesh_cache="true">
+	    <face>
+	      <!--face_key value="0008800340fc20035646d8a987894c9488f76dd9a2367a3858b6c6698734870800040000073c8c7a000000000000000000000000000000000000000000004000" /-->
+	      <BodyProperties version="4" weight="0.4582" build="0.6273"  key="00057405400020026A894A9DAA7789B206892794797B5C7386A7C473581AB48701897613F846C99D0000000000000000000000000000000000000000770800C3"  />
+	    </face>
+	    <skills>
+	    </skills>
+	    <Traits>
+	      <!-- COMBATANT FEMALE -->
+	      <Trait id="BalancedFightingSkills"
+	             value="7" />
+	      <Trait id="Commander"
+	             value="7" />
+	      <Trait id="Politician"
+	             value="6" />
+	      <Trait id="Manager"
+	             value="2" />
+	      <Trait id="Mercy"
+	             value="-1" />
+	      <Trait id="Generosity"
+	             value="-1" />
+	      <Trait id="Valor"
+	             value="1" />
+	    </Traits>
+	    <Equipments>
+	      <EquipmentRoster />
+	      <EquipmentSet id="bat_bat_template_wild" />
+	      <EquipmentSet id="bat_civ_template_wild"
+	                    civilian="true" />
+	    </Equipments>
+  	</NPCCharacter>
+  	<NPCCharacter id="battania_lord_2_4"
+                name="Norena"
+                age="21"
+                voice="curt"
+                is_female="true"
+                culture="Culture.battania"
+                occupation="Lord"
+                default_group="Cavalry"
+                is_hero="true"
+                face_mesh_cache="true">
+	    <face>
+	      <!--face_key value="0008800340fc20035646d8a987894c9488f76dd9a2367a3858b6c6698734870800040000073c8c7a000000000000000000000000000000000000000000004000" /-->
+	      <BodyProperties version="4" weight="0.4582" build="0.6273"  key="000840054000100B77B656D5A6866358068988B954CDC16486A7C473581AB48701897613F846C99D0000000000000000000000000000000000000000770800C3"  />
+	    </face>
+	    <skills>
+	    </skills>
+	    <Traits>
+	      <!-- COMBATANT FEMALE -->
+	      <Trait id="BalancedFightingSkills"
+	             value="7" />
+	      <Trait id="Commander"
+	             value="7" />
+	      <Trait id="Politician"
+	             value="6" />
+	      <Trait id="Manager"
+	             value="2" />
+	      <Trait id="Mercy"
+	             value="-1" />
+	      <Trait id="Generosity"
+	             value="-1" />
+	      <Trait id="Valor"
+	             value="1" />
+	    </Traits>
+	    <Equipments>
+	      <EquipmentRoster />
+	      <EquipmentSet id="bat_bat_template_wild" />
+	      <EquipmentSet id="bat_civ_template_wild"
+	                    civilian="true" />
+	    </Equipments>
+  	</NPCCharacter>
+</NPCCharacters>

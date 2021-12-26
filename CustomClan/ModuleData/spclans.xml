@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Factions>
+<!--  Aserai Clans -->
+  <Faction id="clan_aserai_10"
+           name="{=Aft8nsgn}Banu Sui"
+           tier="4"
+           owner="Hero.custom_lord_1"
+           culture="Culture.aserai"
+           super_faction="Kingdom.aserai"
+           banner_key="11.142.0.1814.1810.764.764.1.0.0.460.0.142.606.606.764.768.1.1.0" />
+  <Faction id="clan_aserai_11"
+           name="{=Aft8nsgn}Banu Qai"
+           tier="3"
+           owner="Hero.custom_lord_2"
+           culture="Culture.aserai"
+           super_faction="Kingdom.aserai"
+           banner_key="11.142.0.1814.1810.764.764.1.0.0.462.0.142.606.606.764.768.1.1.0" />
+  <Faction id="clan_aserai_12"
+           name="{=Aft8nsgn}Banu Dondurga"
+           tier="4"
+           owner="Hero.custom_lord_3"
+           culture="Culture.aserai"
+           super_faction="Kingdom.aserai"
+           banner_key="11.142.0.1814.1810.764.764.1.0.0.461.0.142.719.707.764.768.1.1.0" />
+  <Faction id="clan_aserai_13"
+           name="{=Aft8nsgn}Banu Salin"
+           tier="4"
+           owner="Hero.custom_lord_4"
+           culture="Culture.aserai"
+           super_faction="Kingdom.aserai"
+           banner_key="11.142.0.1814.1810.764.764.1.0.0.463.0.142.711.700.764.768.1.1.0" />
+  <Faction id="clan_aserai_14"
+           name="{=Aft8nsgn}Banu Bakr"
+           tier="5"
+           owner="Hero.custom_lord_5"
+           culture="Culture.aserai"
+           super_faction="Kingdom.aserai"
+           banner_key="11.142.0.1814.1810.764.764.1.0.0.437.0.142.719.707.764.768.1.1.0" />
+
+<!--  Vlandian Clans  -->
+
+  <Faction id="clan_vlandia_12"
+           name="dey Challon"
+           tier="5"
+           owner="Hero.vlandia_lord_1"
+           culture="Culture.vlandia"
+           super_faction="Kingdom.vlandia"
+           banner_key="11.0.145.1836.1836.764.764.1.0.0.143.7.145.531.531.768.788.1.1.0" />
+  <Faction id="clan_vlandia_13"
+           name="dey Valant"
+           tier="4"
+           owner="Hero.vlandia_lord_2"
+           culture="Culture.vlandia"
+           super_faction="Kingdom.vlandia"
+           banner_key="11.0.145.1836.1836.764.764.1.0.0.415.7.145.531.531.768.788.1.1.0" />
+ 
+<!--  Khuzait Clans  -->
+
+  <Faction id="clan_khuzait_10"
+           name="Yujit"
+           tier="4"
+           owner="Hero.Khuzait_lord_1"
+           culture="Culture.khuzait"
+           super_faction="Kingdom.khuzait"
+           banner_key="11.0.73.1836.1836.764.764.1.0.0.125.11.91.601.531.768.788.1.1.0" />
+ <Faction id="clan_khuzait_11"
+           name="Oranarit"
+           tier="4"
+           owner="Hero.Khuzait_lord_2"
+           culture="Culture.khuzait"
+           super_faction="Kingdom.khuzait"
+           banner_key="11.0.73.1836.1836.764.764.1.0.0.126.11.91.601.531.768.788.1.1.0" />
+ <Faction id="clan_khuzait_12"
+           name="Sunit"
+           tier="3"
+           owner="Hero.Khuzait_lord_3"
+           culture="Culture.khuzait"
+           super_faction="Kingdom.khuzait"
+           banner_key="11.0.73.1836.1836.764.764.1.0.0.129.11.91.601.591.768.788.1.1.0" />
+ <Faction id="clan_khuzait_13"
+           name="Khamag Mongol"
+           tier="5"
+           owner="Hero.Khuzait_lord_4"
+           culture="Culture.khuzait"
+           super_faction="Kingdom.khuzait"
+           banner_key="11.0.73.1836.1836.764.764.1.0.0.128.11.91.601.591.768.788.1.1.0" />
+
+<!-- Battania -->
+  <Faction id="clan_battania_9"
+           name="fen Aertus"
+           tier="3"
+           owner="Hero.battania_lord_1"
+           culture="Culture.battania"
+           super_faction="Kingdom.battania"
+           banner_key="11.89.126.1836.1836.764.764.1.0.0.460.16.16.601.591.768.788.1.1.0" />
+  <Faction id="clan_battania_10"
+           name="fen Brachar"
+           tier="3"
+           owner="Hero.battania_lord_2"
+           culture="Culture.battania"
+           super_faction="Kingdom.battania"
+           banner_key="11.89.126.1836.1836.764.764.1.0.0.437.16.72.601.591.768.788.1.1.0" />
+<!-- Sturgia -->
+  <Faction id="clan_sturgia_10"
+           name="Lothbrok"
+           tier="5"
+           owner="Hero.sturgia_lord_1"
+           culture="Culture.sturgia"
+           super_faction="Kingdom.sturgia"
+           banner_key="11.89.12.1836.1836.764.764.1.0.0.111.12.3.601.591.768.788.1.1.0" />
+</Factions>

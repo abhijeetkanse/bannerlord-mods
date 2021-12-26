@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>		<!--Males 1, 1_1, 1_2;  Females 1_3,1_4-->
+
+	<NPCCharacter id="sturgia_lord_1"
+                name="Ragnar"
+                voice="curt"
+                default_group="Cavalry"
+                age="23"
+                is_hero="true"
+                culture="Culture.sturgia"
+                occupation="Lord"
+                face_mesh_cache="true">
+	    <face>
+	      <BodyProperties version="4" weight="0.5" build="0.5"  key="00002C040058340A6569E86B42547942A9537158E6A5883394A97756BC9B75A904777046F7CE53B800000000000000000000000000000000000000007EF03042"  />
+	    </face>
+	    <skills></skills>
+	    <Traits>
+	      <Trait id="HuscarlFightingSkills"
+	             value="8" />
+	      <Trait id="Commander"
+	             value="6" />
+	      <Trait id="Politician"
+	             value="5" />
+	      <Trait id="Manager"
+	             value="3" />
+	      <Trait id="Mercy"
+	             value="1" />
+	      <Trait id="Valor"
+	             value="1" />
+	      <Trait id="Generosity"
+	             value="1" />
+	      <Trait id="Oligarchic"
+	             value="1" />
+	    </Traits>
+	    <Equipments>
+	      <EquipmentSet id="stu_bat_template_heavy" />
+	      <EquipmentSet id="stu_civ_template_default"
+	                    civilian="true" />
+	    </Equipments>
+  	</NPCCharacter>
+  	<NPCCharacter id="sturgia_lord_1_1"
+                name="Bjorn"
+                voice="curt"
+                default_group="Cavalry"
+                age="23"
+                is_hero="true"
+                culture="Culture.sturgia"
+                occupation="Lord"
+                face_mesh_cache="true">
+	    <face>
+	      <BodyProperties version="4" weight="0.5" build="0.5"  key="00002C04005834056569E86B42547942A9537158E6A5883394A97756BC9B75A901777013F7CE53B800000000000000000000000000000000000000007EF03042"  />
+	    </face>
+	    <skills></skills>
+	    <Traits>
+	      <Trait id="HuscarlFightingSkills"
+	             value="8" />
+	      <Trait id="Commander"
+	             value="6" />
+	      <Trait id="Politician"
+	             value="5" />
+	      <Trait id="Manager"
+	             value="3" />
+	      <Trait id="Mercy"
+	             value="1" />
+	      <Trait id="Valor"
+	             value="1" />
+	      <Trait id="Generosity"
+	             value="1" />
+	      <Trait id="Oligarchic"
+	             value="1" />
+	    </Traits>
+	    <Equipments>
+	      <EquipmentSet id="stu_bat_template_heavy" />
+	      <EquipmentSet id="stu_civ_template_default"
+	                    civilian="true" />
+	    </Equipments>
+  	</NPCCharacter>
+  	<NPCCharacter id="sturgia_lord_1_2"
+                name="Ivar"
+                voice="curt"
+                default_group="Cavalry"
+                age="23"
+                is_hero="true"
+                culture="Culture.sturgia"
+                occupation="Lord"
+                face_mesh_cache="true">
+	    <face>
+	      <BodyProperties version="4" weight="0.5" build="0.5"  key="00002C040058341C6569E86B42547942A9537158E6A5883394A97756BC9B75A904777046F7CE53B800000000000000000000000000000000000000007EF03042"  />
+	    </face>
+	    <skills></skills>
+	    <Traits>
+	      <Trait id="HuscarlFightingSkills"
+	             value="8" />
+	      <Trait id="Commander"
+	             value="6" />
+	      <Trait id="Politician"
+	             value="5" />
+	      <Trait id="Manager"
+	             value="3" />
+	      <Trait id="Mercy"
+	             value="1" />
+	      <Trait id="Valor"
+	             value="1" />
+	      <Trait id="Generosity"
+	             value="1" />
+	      <Trait id="Oligarchic"
+	             value="1" />
+	    </Traits>
+	    <Equipments>
+	      <EquipmentSet id="stu_bat_template_heavy" />
+	      <EquipmentSet id="stu_civ_template_default"
+	                    civilian="true" />
+	    </Equipments>
+  	</NPCCharacter>
+  	<NPCCharacter id="sturgia_lord_1_3"
+                name="Ubbe"
+                voice="curt"
+                default_group="Cavalry"
+                age="23"
+                is_hero="true"
+                culture="Culture.sturgia"
+                occupation="Lord"
+                face_mesh_cache="true">
+	    <face>
+	      <BodyProperties version="4" weight="0.5" build="0.5"  key="00002C04005834096569E86B42547942A9537158E6A5883394A97756BC9B75A901777013F7CE53B800000000000000000000000000000000000000007EF03042"  />
+	    </face>
+	    <skills></skills>
+	    <Traits>
+	      <Trait id="HuscarlFightingSkills"
+	             value="8" />
+	      <Trait id="Commander"
+	             value="6" />
+	      <Trait id="Politician"
+	             value="5" />
+	      <Trait id="Manager"
+	             value="3" />
+	      <Trait id="Mercy"
+	             value="1" />
+	      <Trait id="Valor"
+	             value="1" />
+	      <Trait id="Generosity"
+	             value="1" />
+	      <Trait id="Oligarchic"
+	             value="1" />
+	    </Traits>
+	    <Equipments>
+	      <EquipmentSet id="stu_bat_template_heavy" />
+	      <EquipmentSet id="stu_civ_template_default"
+	                    civilian="true" />
+	    </Equipments>
+  	</NPCCharacter>
+  	<NPCCharacter id="sturgia_lord_1_4"
+                name="Lagetga"
+                age="21"
+                voice="curt"
+                default_group="Cavalry"
+                is_hero="true"
+                is_female="true"
+                culture="Culture.sturgia"
+                occupation="Lord"
+                face_mesh_cache="true">
+	    <face>
+	      <BodyProperties version="4" weight="0.0525" build="0.8441"  key="00001C04007010018873324163A357B4966D873971979A028B644405773A5B24007D1603F78B799C00000000000000000000000000000000000000007EF41083"  />
+	    </face>
+	    <skills></skills>
+	    <Traits>
+	      <Trait id="PeltastFightingSkills"
+	             value="9" />
+	      <Trait id="Commander"
+	             value="6" />
+	      <Trait id="Politician"
+	             value="2" />
+	      <Trait id="Manager"
+	             value="3" />
+	      <Trait id="Mercy"
+	             value="-1" />
+	      <Trait id="Honor"
+	             value="1" />
+	      <Trait id="Valor"
+	             value="1" />
+	      <Trait id="Generosity"
+	             value="-1" />
+	      <Trait id="Calculating"
+	             value="-1" />
+	    </Traits>
+	    <Equipments>
+	      <EquipmentRoster />
+	      <EquipmentSet id="stu_bat_template_medium" />
+	      <EquipmentSet id="stu_civ_template_woodsman"
+	                    civilian="true" />
+	    </Equipments>
+  	</NPCCharacter>
+  	<NPCCharacter id="sturgia_lord_1_5"
+                name="Kara"
+                age="21"
+                voice="curt"
+                default_group="Cavalry"
+                is_hero="true"
+                is_female="true"
+                culture="Culture.sturgia"
+                occupation="Lord"
+                face_mesh_cache="true">
+	    <face>
+	      <BodyProperties version="4" weight="0" build="0.7978"  key="00001C04008830021B7213026674749A968B7726758543278B44F71278394B35007C0603F74B175000000000000000000000000000000000000000007EEC10C3"  />
+	    </face>
+	    <skills></skills>
+	    <Traits>
+	      <Trait id="PeltastFightingSkills"
+	             value="9" />
+	      <Trait id="Commander"
+	             value="6" />
+	      <Trait id="Politician"
+	             value="2" />
+	      <Trait id="Manager"
+	             value="3" />
+	      <Trait id="Mercy"
+	             value="-1" />
+	      <Trait id="Honor"
+	             value="1" />
+	      <Trait id="Valor"
+	             value="1" />
+	      <Trait id="Generosity"
+	             value="-1" />
+	      <Trait id="Calculating"
+	             value="-1" />
+	    </Traits>
+	    <Equipments>
+	      <EquipmentRoster />
+	      <EquipmentSet id="stu_bat_template_medium" />
+	      <EquipmentSet id="stu_civ_template_woodsman"
+	                    civilian="true" />
+	    </Equipments>
+  	</NPCCharacter>
+</NPCCharacters>

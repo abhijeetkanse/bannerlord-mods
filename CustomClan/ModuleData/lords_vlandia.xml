@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>		<!--Males 1, 1_1, 1_2;  Females 1_3,1_4-->
+
+	<NPCCharacter id="vlandia_lord_1"
+                name="Morcon"
+                age="24"
+                voice="ironic"
+                culture="Culture.vlandia"
+                occupation="Lord"
+                is_hero="true"
+                default_group="Cavalry"
+                face_mesh_cache="true">
+             <face>
+             <!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+             <BodyProperties version="4" key="0008B00400000384A78244373A714DB139C2813792826026AA79AC688B185E4500877003F84675B000000000000000000000000000000000000000007F007082"  />
+             </face>
+             <skills></skills>
+             <Traits>
+             <Trait id="BalancedFightingSkills"
+                   value="3" />
+             <Trait id="Commander"
+                   value="7" />
+             <Trait id="Politician"
+                   value="7" />
+             <Trait id="Manager"
+                   value="7" />
+             <Trait id="Valor"
+                   value="-1" />
+             <Trait id="Generosity"
+                   value="1" />
+             <Trait id="Calculating"
+                   value="1" />
+             <Trait id="Oligarchic"
+                   value="1" />
+             </Traits>
+             <Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="vla_bat_template_medium" />
+				<EquipmentSet id="vla_civ_template_default"
+				            civilian="true" />
+		     </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="vlandia_lord_1_1"
+                name="Armund"
+                age="24"
+                voice="ironic"
+                culture="Culture.vlandia"
+                occupation="Lord"
+                is_hero="true"
+                default_group="Cavalry"
+                face_mesh_cache="true">
+             <face>
+             <!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+             <BodyProperties version="4" key="0008B0040000020EA78244373A714DB139C2813792826026AA79AC688B185E4500877003F84675B000000000000000000000000000000000000000007F007082"  />
+             </face>
+             <skills></skills>
+             <Traits>
+             <Trait id="BalancedFightingSkills"
+                   value="3" />
+             <Trait id="Commander"
+                   value="7" />
+             <Trait id="Politician"
+                   value="7" />
+             <Trait id="Manager"
+                   value="7" />
+             <Trait id="Valor"
+                   value="-1" />
+             <Trait id="Generosity"
+                   value="1" />
+             <Trait id="Calculating"
+                   value="1" />
+             <Trait id="Oligarchic"
+                   value="1" />
+             </Traits>
+             <Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="vla_bat_template_medium" />
+				<EquipmentSet id="vla_civ_template_default"
+				            civilian="true" />
+		     </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="vlandia_lord_1_2"
+                name="Colsund"
+                age="24"
+                voice="ironic"
+                culture="Culture.vlandia"
+                occupation="Lord"
+                is_hero="true"
+                default_group="Cavalry"
+                face_mesh_cache="true">
+             <face>
+             <!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+             <BodyProperties version="4" key="0008B00400000354A78244373A714DB139C2813792826026AA79AC688B185E4500877003F84675B000000000000000000000000000000000000000007F007082"  />
+             </face>
+             <skills></skills>
+             <Traits>
+             <Trait id="BalancedFightingSkills"
+                   value="3" />
+             <Trait id="Commander"
+                   value="7" />
+             <Trait id="Politician"
+                   value="7" />
+             <Trait id="Manager"
+                   value="7" />
+             <Trait id="Valor"
+                   value="-1" />
+             <Trait id="Generosity"
+                   value="1" />
+             <Trait id="Calculating"
+                   value="1" />
+             <Trait id="Oligarchic"
+                   value="1" />
+             </Traits>
+             <Equipments>
+				<EquipmentRoster />
+				<EquipmentSet id="vla_bat_template_medium" />
+				<EquipmentSet id="vla_civ_template_default"
+				            civilian="true" />
+		     </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="vlandia_lord_1_3"
+                name="Iliset"
+                age="21"
+                voice="earnest"
+                default_group="Cavalry"
+                is_hero="true"
+                is_female="true"
+                culture="Culture.vlandia"
+                occupation="Lord"
+                face_mesh_cache="true">
+            <face>
+            <!--face_key value="00127cf4803c3004b7d8465988d18c845a24288fad8ab786279b9caa78aa48b500098a44a39aa965000000000000000000000000000000000000000000002000" /-->
+            <BodyProperties version="4" key="0005AC040070000217A823EA6364A9577C7B6596B4511B43A0B835CE9AE9AAC70EB779E2FCA86C7500000000000000000000000000000000000000007F684083"  />
+            </face>
+            <skills></skills>
+            <Traits>
+            <!-- COMBATANT FEMALE -->
+            <Trait id="BalancedFightingSkills"
+                   value="6" />
+            <Trait id="Commander"
+                   value="8" />
+            <Trait id="Politician"
+                   value="4" />
+            <Trait id="Manager"
+                   value="7" />
+            <Trait id="Mercy"
+                   value="1" />
+            <Trait id="Honor"
+                   value="1" />
+            <Trait id="Generosity"
+                   value="1" />
+            <Trait id="Valor"
+                   value="1" />
+            </Traits>
+            <!--  <equipment slot="Horse" id="Item.noble_horse" />
+            <equipment slot="HorseHarness" id="Item.chain_horse_harness" />  -->
+            <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="vla_bat_template_medium" />
+            <EquipmentSet id="vla_civ_template_default"
+                          civilian="true" />
+            </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="vlandia_lord_1_4"
+                name="Roslind"
+                age="21"
+                voice="earnest"
+                default_group="Cavalry"
+                is_hero="true"
+                is_female="true"
+                culture="Culture.vlandia"
+                occupation="Lord"
+                face_mesh_cache="true">
+            <face>
+            <!--face_key value="00127cf4803c3004b7d8465988d18c845a24288fad8ab786279b9caa78aa48b500098a44a39aa965000000000000000000000000000000000000000000002000" /-->
+            <BodyProperties version="4" key="0005AC040070000A17A823EA6364A9577C7B6596B4511B43A0B835CE9AE9AAC70EB779E2FCA86C7500000000000000000000000000000000000000007F684083"  />
+            </face>
+            <skills></skills>
+            <Traits>
+            <!-- COMBATANT FEMALE -->
+            <Trait id="BalancedFightingSkills"
+                   value="6" />
+            <Trait id="Commander"
+                   value="8" />
+            <Trait id="Politician"
+                   value="4" />
+            <Trait id="Manager"
+                   value="7" />
+            <Trait id="Mercy"
+                   value="1" />
+            <Trait id="Honor"
+                   value="1" />
+            <Trait id="Generosity"
+                   value="1" />
+            <Trait id="Valor"
+                   value="1" />
+            </Traits>
+            <!--  <equipment slot="Horse" id="Item.noble_horse" />
+            <equipment slot="HorseHarness" id="Item.chain_horse_harness" />  -->
+            <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="vla_bat_template_medium" />
+            <EquipmentSet id="vla_civ_template_default"
+                          civilian="true" />
+            </Equipments>
+    </NPCCharacter>
+<!--#clan 1 end-->
+	
+	<NPCCharacter id="vlandia_lord_2"
+                name="Amaldulf"
+                age="24"
+                voice="ironic"
+                culture="Culture.vlandia"
+                occupation="Lord"
+                is_hero="true"
+                default_group="Cavalry"
+                face_mesh_cache="true">
+             <face>
+             <!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+             <BodyProperties version="4" key="00001C04007003818873324163A357B4966D873971979A028B644405773A5B2400777603F78B799C00000000000000000000000000000000000000007EF41082"  />
+             </face>
+             <skills></skills>
+             <Traits>
+             <Trait id="BalancedFightingSkills"
+                   value="3" />
+             <Trait id="Commander"
+                   value="7" />
+             <Trait id="Politician"
+                   value="7" />
+             <Trait id="Manager"
+                   value="7" />
+             <Trait id="Valor"
+                   value="-1" />
+             <Trait id="Generosity"
+                   value="1" />
+             <Trait id="Calculating"
+                   value="1" />
+             <Trait id="Oligarchic"
+                   value="1" />
+             </Traits>
+             <Equipments>
+                        <EquipmentRoster />
+                        <EquipmentSet id="vla_bat_template_medium" />
+                        <EquipmentSet id="vla_civ_template_default"
+                                    civilian="true" />
+                 </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="vlandia_lord_2_1"
+                name="Ecard"
+                age="24"
+                voice="ironic"
+                culture="Culture.vlandia"
+                occupation="Lord"
+                is_hero="true"
+                default_group="Cavalry"
+                face_mesh_cache="true">
+             <face>
+             <!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+             <BodyProperties version="4" key="00001C04007003C58873324163A357B4966D873971979A028B644405773A5B2400777603F78B799C00000000000000000000000000000000000000007EF41082"  />
+             </face>
+             <skills></skills>
+             <Traits>
+             <Trait id="BalancedFightingSkills"
+                   value="3" />
+             <Trait id="Commander"
+                   value="7" />
+             <Trait id="Politician"
+                   value="7" />
+             <Trait id="Manager"
+                   value="7" />
+             <Trait id="Valor"
+                   value="-1" />
+             <Trait id="Generosity"
+                   value="1" />
+             <Trait id="Calculating"
+                   value="1" />
+             <Trait id="Oligarchic"
+                   value="1" />
+             </Traits>
+             <Equipments>
+                        <EquipmentRoster />
+                        <EquipmentSet id="vla_bat_template_medium" />
+                        <EquipmentSet id="vla_civ_template_default"
+                                    civilian="true" />
+                 </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="vlandia_lord_2_2"
+                name="Choric"
+                age="24"
+                voice="ironic"
+                culture="Culture.vlandia"
+                occupation="Lord"
+                is_hero="true"
+                default_group="Cavalry"
+                face_mesh_cache="true">
+             <face>
+             <!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+             <BodyProperties version="4" key="00001C04007003CA8873324163A357B4966D873971979A028B644405773A5B2400777603F78B799C00000000000000000000000000000000000000007EF41082"  />
+             </face>
+             <skills></skills>
+             <Traits>
+             <Trait id="BalancedFightingSkills"
+                   value="3" />
+             <Trait id="Commander"
+                   value="7" />
+             <Trait id="Politician"
+                   value="7" />
+             <Trait id="Manager"
+                   value="7" />
+             <Trait id="Valor"
+                   value="-1" />
+             <Trait id="Generosity"
+                   value="1" />
+             <Trait id="Calculating"
+                   value="1" />
+             <Trait id="Oligarchic"
+                   value="1" />
+             </Traits>
+             <Equipments>
+                        <EquipmentRoster />
+                        <EquipmentSet id="vla_bat_template_medium" />
+                        <EquipmentSet id="vla_civ_template_default"
+                                    civilian="true" />
+                 </Equipments>
+    </NPCCharacter>
+	<NPCCharacter id="vlandia_lord_2_3"
+                name="Asgerta"
+                age="21"
+                voice="earnest"
+                default_group="Cavalry"
+                is_hero="true"
+                is_female="true"
+                culture="Culture.vlandia"
+                occupation="Lord"
+                face_mesh_cache="true">
+            <face>
+            <!--face_key value="00127cf4803c3004b7d8465988d18c845a24288fad8ab786279b9caa78aa48b500098a44a39aa965000000000000000000000000000000000000000000002000" /-->
+            <BodyProperties version="4" key="000A600400E4100289989588AC8A337984A876A61A98466778D755B2B5B8138300777603F7695AB100000000000000000000000000000000000000007EF40083"  />
+            </face>
+            <skills></skills>
+            <Traits>
+            <!-- COMBATANT FEMALE -->
+            <Trait id="BalancedFightingSkills"
+                   value="6" />
+            <Trait id="Commander"
+                   value="8" />
+            <Trait id="Politician"
+                   value="4" />
+            <Trait id="Manager"
+                   value="7" />
+            <Trait id="Mercy"
+                   value="1" />
+            <Trait id="Honor"
+                   value="1" />
+            <Trait id="Generosity"
+                   value="1" />
+            <Trait id="Valor"
+                   value="1" />
+            </Traits>
+            <!--  <equipment slot="Horse" id="Item.noble_horse" />
+            <equipment slot="HorseHarness" id="Item.chain_horse_harness" />  -->
+            <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="vla_bat_template_medium" />
+            <EquipmentSet id="vla_civ_template_default"
+                          civilian="true" />
+            </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="vlandia_lord_2_4"
+                name="Rathegund"
+                age="21"
+                voice="earnest"
+                default_group="Cavalry"
+                is_hero="true"
+                is_female="true"
+                culture="Culture.vlandia"
+                occupation="Lord"
+                face_mesh_cache="true">
+            <face>
+            <!--face_key value="00127cf4803c3004b7d8465988d18c845a24288fad8ab786279b9caa78aa48b500098a44a39aa965000000000000000000000000000000000000000000002000" /-->
+            <BodyProperties version="4" key="00001C04007010018873324163A357B4966D873971979A028B644405773A5B2403777635F78B799C00000000000000000000000000000000000000007EF41083"  />
+            </face>
+            <skills></skills>
+            <Traits>
+            <!-- COMBATANT FEMALE -->
+            <Trait id="BalancedFightingSkills"
+                   value="6" />
+            <Trait id="Commander"
+                   value="8" />
+            <Trait id="Politician"
+                   value="4" />
+            <Trait id="Manager"
+                   value="7" />
+            <Trait id="Mercy"
+                   value="1" />
+            <Trait id="Honor"
+                   value="1" />
+            <Trait id="Generosity"
+                   value="1" />
+            <Trait id="Valor"
+                   value="1" />
+            </Traits>
+            <!--  <equipment slot="Horse" id="Item.noble_horse" />
+            <equipment slot="HorseHarness" id="Item.chain_horse_harness" />  -->
+            <Equipments>
+            <EquipmentRoster />
+            <EquipmentSet id="vla_bat_template_medium" />
+            <EquipmentSet id="vla_civ_template_default"
+                          civilian="true" />
+            </Equipments>
+    </NPCCharacter>
+
+</NPCCharacters>
